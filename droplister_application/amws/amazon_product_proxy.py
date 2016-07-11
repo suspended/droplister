@@ -9,20 +9,15 @@ from droplister_application.config import BaseConfig
 
 
 class AmazonProductProxy:
-    # ACCESS_KEY = 'AKIAJDS5JSZFEJLRI2XA'  # replace with your access key
-    # MERCHANT_ID = 'A1HUC6KRBUPYNX'  # replace with your merchant id
-    # SECRET_KEY = 'TpoTCy7CeG9pGHfuelCfh1+GLuH7WF2r5Dk9jMX/'  # replace with your secret key
-    # MARKETPLACEID = "A1RKKUPIHCS9HS"
 
     def __init__(self):
         self.root = os.path.join(app.config['APP_ROOT'], "amws")
         self.profile = app.config['PROFILE']
+        aws_list_cred = self.get_aws_cred_from_file()
         if self.profile == BaseConfig.DEVELOPMENT_PROFILE:
-            self.amazon = AmazonAPI("AKIAJ7NR4H5C4QHEHOWQ", "1U5z6t8YJRYF1kdo/55rYX60vdzB8AqBFwSDTREH",
-                                    "carlitossanfe-20", Region='ES')
+            self.amazon = AmazonAPI(*aws_list_cred, Region='ES')
         else:
-            self.amazon = ProductionAmazonAPI("AKIAJ7NR4H5C4QHEHOWQ", "1U5z6t8YJRYF1kdo/55rYX60vdzB8AqBFwSDTREH",
-                                              "carlitossanfe-20", Region='ES')
+            self.amazon = ProductionAmazonAPI(*aws_list_cred, Region='ES')
 
     def search_products(self, query):
         product_res = self.extract_products(self.amazon.search(Keywords=query, SearchIndex='All'))
@@ -46,3 +41,11 @@ class AmazonProductProxy:
         return product_res
 
         # extract_products = staticmethod(extract_products)
+
+    def get_aws_cred_from_file(self):
+        path_to_file_with_aws = os.path.join(self.root, 'aws_cred.txt')
+        content = list()
+        with open(path_to_file_with_aws) as credentials:
+            for line in credentials:
+                content.append(line)
+        return content
