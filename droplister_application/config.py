@@ -8,12 +8,14 @@ class BaseConfig(object):
     SECRET_KEY = 'A random secret key'
     DEBUG = True
     TESTING = False
+    PRODUCTION_PROFILE = "PROD"
+    DEVELOPMENT_PROFILE = "DEV"
 
 
 class ProductionConfig(BaseConfig):
     """Production specific config"""
     """Production environment specific config"""
-    DEBUG = False
+    DEBUG = True
     # SERVER_NAME = "localhost:5001"
     SECRET_KEY = '6LeZZBUTAAAAAFtwAWfvkwhU33Zz1Y1lSP6plsjc'
     LOG_FILE = 'droplister_application.log'
@@ -22,6 +24,7 @@ class ProductionConfig(BaseConfig):
     UPLOAD_FOLDER = os.path.realpath('.') + '/droplister_application/static/uploads'
     SQLALCHEMY_DATABASE_URI = 'mysql://root:admin@127.0.0.1:3306/droplister'
     BABEL_DEFAULT_LOCALE = 'en'
+    PROFILE = BaseConfig.PRODUCTION_PROFILE
 
     """SQLAlchemy Config"""
     SQLALCHEMY_TRACK_MODIFICATIONS = False
@@ -68,6 +71,7 @@ class DevelopmentConfig(BaseConfig):
     UPLOAD_FOLDER = os.path.realpath('.') + '/droplister_application/static/uploads'
     SQLALCHEMY_DATABASE_URI = 'mysql://root:admin@127.0.0.1:3306/droplister'
     BABEL_DEFAULT_LOCALE = 'en'
+    PROFILE = BaseConfig.DEVELOPMENT_PROFILE
 
     """SQLAlchemy Config"""
     SQLALCHEMY_TRACK_MODIFICATIONS = False

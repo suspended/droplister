@@ -3,6 +3,8 @@ from droplister_application import app
 from ebaysdk.trading import Connection as Trading
 import logging
 
+from droplister_application.config import BaseConfig
+
 LOGGER = logging.getLogger(__name__)
 
 
@@ -13,11 +15,19 @@ class EbayTradingDroplisterProxy:
     def _get_connection(self, token):
         api = Trading(domain=app.config['EBAY_DOMAIN'],
                       config_file=None,
-                      proxy_host="127.0.0.1", proxy_port=3128,
                       appid=app.config['EBAY_APP_ID'],
                       devid=app.config['EBAY_DEV_ID'],
                       certid=app.config['EBAY_CERT_ID'],
                       token=token)
+        self.profile = app.config['PROFILE']
+        if self.profile == BaseConfig.DEVELOPMENT_PROFILE:
+            api = Trading(domain=app.config['EBAY_DOMAIN'],
+                          config_file=None,
+                          proxy_host="127.0.0.1", proxy_port=3128,
+                          appid=app.config['EBAY_APP_ID'],
+                          devid=app.config['EBAY_DEV_ID'],
+                          certid=app.config['EBAY_CERT_ID'],
+                          token=token)
         return api
 
     def get_session_id(self):

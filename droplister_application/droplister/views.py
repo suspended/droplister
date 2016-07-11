@@ -60,6 +60,11 @@ def gettingstarted():
     return render_template("gettingstarted/gettingstarted.html", form=form, wizard_step=wizard_step)
 
 
+@main_blue_print.route("/ebaydeclined")
+def show_declined_page():
+    return render_template("ebay_declined.html")
+
+
 @main_blue_print.route("/ebayaccepted")
 def receive_user_token():
     token_tuple = ebay_trading_proxy.get_token_x_session_id(session['ebay_session_id'])

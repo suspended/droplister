@@ -6,7 +6,7 @@ __author__ = 'bryan'
 from flask.ext.migrate import Migrate, MigrateCommand
 from flask.ext.script import Manager
 from flask.ext.sqlalchemy import SQLAlchemy
-from droplister_application.config import DevelopmentConfig
+from droplister_application.config import DevelopmentConfig, ProductionConfig
 from flask_wtf.csrf import CsrfProtect
 from flask import Flask
 
