@@ -1,8 +1,9 @@
+import os
+
 from ebaysdk.exception import ConnectionError
 from droplister_application import app
 from ebaysdk.trading import Connection as Trading
 import logging
-
 from droplister_application.config import BaseConfig
 
 LOGGER = logging.getLogger(__name__)
@@ -12,22 +13,21 @@ class EbayTradingDroplisterProxy:
     def __init__(self):
         pass
 
-    def _get_connection(self, token):
-        api = Trading(domain=app.config['EBAY_DOMAIN'],
-                      config_file=None,
-                      appid=app.config['EBAY_APP_ID'],
-                      devid=app.config['EBAY_DEV_ID'],
-                      certid=app.config['EBAY_CERT_ID'],
-                      token=token)
+    def _get_connection(self, token=None):
         self.profile = app.config['PROFILE']
+        self.root = os.path.join(app.config['APP_ROOT'], 'ebayws')
+        params_dict = dict()
+        params_dict['domain'] = app.config['EBAY_DOMAIN']
+        if token:
+            params_dict['token'] = token
         if self.profile == BaseConfig.DEVELOPMENT_PROFILE:
-            api = Trading(domain=app.config['EBAY_DOMAIN'],
-                          config_file=None,
-                          proxy_host="127.0.0.1", proxy_port=3128,
-                          appid=app.config['EBAY_APP_ID'],
-                          devid=app.config['EBAY_DEV_ID'],
-                          certid=app.config['EBAY_CERT_ID'],
-                          token=token)
+            params_dict['config_file'] = os.path.join(self.root, 'ebay_dev.yaml')
+            params_dict['proxy_host'] = "127.0.0.1"
+            params_dict['proxy_port'] = 3128
+        else:
+            params_dict['config_file'] = os.path.join(self.root, 'ebay_prod.yaml')
+
+        api = Trading(**params_dict)
         return api
 
     def get_session_id(self):
