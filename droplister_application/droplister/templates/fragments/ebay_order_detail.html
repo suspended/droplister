@@ -1,0 +1,26 @@
+<h2 class="ui inverted header">Ebay Order Id</h2>
+<span>{{ order.OrderID }}</span>
+<div class="ui divider"></div>
+<h2 class="ui inverted header">Shipping Address</h2>
+<p>
+    <label>Name</label>
+    <span>{{ order.ShippingAddress.Name }}</span>
+    <label>ExternalAddressID</label>
+    <span>{{ order.ShippingAddress.ExternalAddressID }}</span>
+    <label>Street1</label>
+    <span>{{ order.ShippingAddress.Street1 }}</span>
+    <label>Street2</label>
+    <span>{{ order.ShippingAddress.Street2 }}</span>
+    <label>CityName</label>
+    <span>{{ order.ShippingAddress.CityName }}</span>
+    <label>CountryName</label>
+    <span>{{ order.ShippingAddress.CountryName }}</span>
+    <label>Phone</label>
+    <span>{{ order.ShippingAddress.Phone }}</span>
+    <label>PostalCode</label>
+    <span>{{ order.ShippingAddress.PostalCode }}</span>
+    <label>StateOrProvince</label>
+    <span>{{ order.ShippingAddress.StateOrProvince }}</span>
+</p>
+
+

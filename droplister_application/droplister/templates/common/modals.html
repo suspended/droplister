@@ -1,0 +1,53 @@
+<div class="ui basic modal" id="confirm_modal">
+    <i class="close icon"></i>
+
+    <div class="header">
+        Archive Old Messages
+    </div>
+    <div class="image content">
+        <div class="image">
+            <i class="archive icon"></i>
+        </div>
+        <div class="description">
+            <p>Your inbox is getting full, would you like us to enable automatic archiving of old messages?</p>
+        </div>
+    </div>
+    <div class="actions">
+        <div class="two fluid ui inverted buttons">
+            <div class="ui red basic inverted button cancel">
+                <i class="remove icon"></i>
+                No
+            </div>
+            <div class="ui green basic inverted button ok">
+                <i class="checkmark icon"></i>
+                Yes
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui basic modal" id="info_modal">
+    <i class="close icon"></i>
+
+    <div class="header">
+        Order detail
+    </div>
+    <div class="image content">
+        <div class="image">
+            <i class="add to cart icon"></i>
+        </div>
+        <div class="description">
+            <p>Your inbox is getting full, would you like us to enable automatic archiving of old messages?</p>
+        </div>
+    </div>
+    <div class="actions">
+        <div class="two fluid ui inverted buttons">
+            <div class="ui green basic inverted button ok">
+                <i class="checkmark icon"></i>
+                Accept
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('DL_BP.static', filename="js/utils/modal.js") }}"></script>

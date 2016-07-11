@@ -1,0 +1,74 @@
+{% extends "backoffice.html" %}
+
+{% block extra_script %}
+    <script type="text/javascript" src="{{ url_for("DL_BP.static", filename="js/backoffice/order.js") }}"></script>
+{% endblock %}
+
+{% block content %}
+
+    <div class="ui basic segment" id="dashboard">
+        <h3 class="ui header">
+            Orders
+        </h3>
+
+        <div class="ui divider"></div>
+        <table id="orders_table" class="ui teal selectable celled table" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>Ebay Order ID</th>
+                <th>Quantity Purchased</th>
+                <th>Ebay Checkout Status</th>
+                <th>Ebay Order Status</th>
+                <th>Ebay Transaction Currency</th>
+                <th>Ebay Transaction Price</th>
+                <th>Ebay Shipping Method</th>
+                <th>Ebay Shipping Currency</th>
+                <th>Ebay Shipping Value</th>
+                <th>Ebay Total Price</th>
+                <th>Amazon Order Status</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th></th>
+                <th colspan="10">
+                    <div class="ui teal right floated small labeled icon button" id="buy_on_amazon">
+                        <i class="send icon"></i> Purchase on Amazon
+                    </div>
+                    <!-- <div class="ui small  button">
+                        Approve
+                    </div>
+                    <div class="ui small  disabled button">
+                        Approve All
+                    </div>  -->
+                </th>
+            </tr>
+            </tfoot>
+            <tbody>
+
+            {% for order in orders %}
+                <tr>
+                    <td>{{ order.ebay_order_id }}</td>
+                    <td>{{ order.ebay_quantity_purchased }}</td>
+                    <td>{{ order.ebay_checkout_status }}</td>
+                    <td>{{ order.ebay_order_status }}</td>
+                    <td>{{ order.ebay_transaction_currency }}</td>
+                    <td>{{ order.ebay_transaction_price }}</td>
+                    <td>{{ order.ebay_shipping_method }}</td>
+                    <td>{{ order.ebay_shipping_currency }}</td>
+                    <td>{{ order.ebay_shipping_value }}</td>
+                    <td>{{ order.ebay_total_price }}</td>
+                    <td>{{ order.amazon_order_status }}</td>
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+
+        <form action="{{ url_for("DL_BP.prepare_amazon_carts") }}" method="post" id="form_orders">
+            <input type=hidden name=_csrf_token value="{{ csrf_token() }}">
+            <input type="hidden" id="input_orders" name="orders">
+        </form>
+    </div>
+
+{% endblock %}

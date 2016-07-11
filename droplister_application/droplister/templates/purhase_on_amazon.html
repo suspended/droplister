@@ -1,0 +1,68 @@
+{% extends "backoffice.html" %}
+
+{% block extra_script %}
+    <script type="text/javascript" src="{{ url_for("DL_BP.static", filename="js/drop_lister_amazon/amazon.js") }}"></script>
+{% endblock %}
+
+{% block content %}
+
+    <div class="ui basic segment" id="dashboard">
+        <h3 class="ui header">
+            Purchase on Amazon
+        </h3>
+
+        <div class="ui divider"></div>
+        <table id="purchase_table" class="ui teal selectable celled table" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>Amazon Offer ID</th>
+                <th>Ebay Order ID</th>
+                <th>Quantity Purchased</th>
+                <th>Amazon Price</th>
+                <th>Ebay Price</th>
+                <th>Profit</th>
+                <th>Purchase link</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <!--
+            <tr>
+                <th></th>
+                <th colspan="10">
+                    <div class="ui teal right floated small labeled icon button" id="buy_on_amazon">
+                        <i class="send icon"></i> Purchase on Amazon
+                    </div>
+                     <div class="ui small  button">
+                        Approve
+                    </div>
+                    <div class="ui small  disabled button">
+                        Approve All
+                    </div>
+                </th>
+            </tr>
+            -->
+            </tfoot>
+            <tbody>
+
+            {% for order in droplister_orders_list %}
+                <tr>
+                    <td style="max-width: 20px;overflow: hidden">
+                        {{ order.droplister_item.amazon_offer_id }}
+                    </td>
+                    <td>{{ order.ebay_order_id }}</td>
+                    <td>{{ order.ebay_quantity_purchased }}</td>
+                    <td>Amazon price $$</td>
+                    <td>{{ order.ebay_total_price }}</td>
+                    <td>Profit $$</td>
+                    <td>
+                        <a href="{{ order.amazon_purchase_link }}" target="_blank" id="purchase_button">Purchase</a>
+                    </td>
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+
+    </div>
+
+{% endblock %}

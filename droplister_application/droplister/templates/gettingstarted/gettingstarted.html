@@ -1,0 +1,140 @@
+{% extends 'index.html' %}
+
+{% block meta_style %}
+    <style>
+        .step_content {
+            display: none;
+        }
+
+        .step {
+            cursor: pointer;
+        }
+    </style>
+{% endblock %}
+
+{% block meta_script %}
+    <script>
+        var step = parseInt("{{ wizard_step | int}}");
+        var max_steps = 2;
+        ebay_url = "{{ url_for("DL_BP.gettingstarted") }}";
+    </script>
+    <script type="text/javascript"
+            src="{{ url_for('DL_BP.static', filename="js/drop_lister_wizard/validation.js") }}"></script>
+    <script type="text/javascript"
+            src="{{ url_for('DL_BP.static', filename="js/drop_lister_wizard/wizard.js") }}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="ui three bottom attached steps">
+        <div class="step">
+            <i class="edit icon"></i>
+
+            <div class="content">
+                <div class="title">Join us</div>
+                <div class="description">Choose your shipping options</div>
+            </div>
+        </div>
+        <div class="step disabled">
+            <i class="payment icon"></i>
+
+            <div class="content">
+                <div class="title">Authorize eBay</div>
+                <div class="description">Choose your shipping options</div>
+            </div>
+        </div>
+        <!--<div class="step">
+            <i class="info icon"></i>
+
+            <div class="content">
+                <div class="title">Authorize Amazon</div>
+                <div class="description">Choose your shipping options</div>
+            </div>
+        </div> -->
+    </div>
+    <div class="ui attached segment">
+        <form class="ui form" id="personal_information" method="post" action="{{ url_for("DL_BP.gettingstarted") }}">
+            {{ form.csrf_token }}
+            <div class="ui error message"></div>
+            <div id="content_step_1" class="step_content">
+                <h4 class="ui dividing header">
+                    <i class="user icon"></i>Personal Information
+                </h4>
+
+                <div class="two fields">
+                    <div class="field">
+                        {{ form.first_name.label }}
+                        {{ form.first_name }}
+                    </div>
+                    <div class="field">
+                        {{ form.last_name.label }}
+                        {{ form.last_name }}
+                    </div>
+                </div>
+                <div class="two fields">
+                    <div class="field">
+                        {{ form.email.label }}
+                        {{ form.email(placeholder="joe@schmoe.com") }}
+                    </div>
+                    <div class="field">
+                        {{ form.confirm_email.label }}
+                        {{ form.confirm_email(placeholder="joe@schmoe.com") }}
+                    </div>
+                </div>
+                <div class="field" id="terms">
+                    <div class="ui test slider checkbox">
+                        {{ form.terms }}
+                        {{ form.terms.label }}
+                    </div>
+                </div>
+            </div>
+            <div id="content_step_2" class="step_content">
+                <div class="user_info">
+                    <div class="ui icon message">
+                        <i class="info icon"></i>
+
+                        <div class="content">
+                            <div class="header">
+                                eBay Authorization
+                            </div>
+                            <p>We need your authorization to use eBay on behalf you and the PayPal e-mail address to
+                                ensure you get paid from sold items</p>
+                        </div>
+                    </div>
+                    <div class="field">
+                        {{ form.paypal_email.label }}
+                        {{ form.paypal_email }}
+                    </div>
+                    <div class="field">
+                        {{ form.confirm_paypal_email.label }}
+                        {{ form.confirm_paypal_email }}
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="content_step_3" class="step_content">
+                <h4 class="ui dividing header">
+                    <i class="user icon"></i>Personal Information
+                </h4>
+
+                <form class="ui form" name="amazon_information">
+
+                </form>
+            </div> -->
+        </form>
+    </div>
+
+    <br/>
+
+    <a class="ui teal right floated right labeled icon button" id="next_button">
+        <i class="right arrow icon"></i>
+        <span>Next</span>
+    </a>
+
+    <a class="ui right floated right labeled icon button" id="cancel_button" href="{{ url_for('DL_BP.index') }}">
+        Cancel
+        <i class="ban icon"></i>
+    </a>
+
+{% endblock %}
+
+</body>
+</html>

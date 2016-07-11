@@ -1,0 +1,21 @@
+{% for category, message in get_flashed_messages (with_categories=true) %}
+
+    <script type="text/javascript">
+        var mess = "{{ message }}";
+        var category = "{{ category }}";
+
+        messages_div = $("<div />").attr('id', 'messages').addClass("ui").append($("<i class='close icon'/>"));
+        $('body').prepend(messages_div);
+        class_css = 'success message';
+        if (category === "danger") {
+            class_css = 'error message';
+        }
+        messages_div.addClass(class_css);
+        header = $("<div/>").addClass('header').html(mess).appendTo(messages_div);
+
+        $('.message .close').on('click', function () {
+            $(this).closest('.message').hide();
+        });
+    </script>
+
+{% endfor %}

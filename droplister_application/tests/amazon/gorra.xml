@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<ListMatchingProductsResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <ListMatchingProductsResult>
+        <Products xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
+                  xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B015MF6G6Y</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Varios</ns2:Binding>
+                        <ns2:Brand>Tongshi</ns2:Brand>
+                        <ns2:Color>amarillo</ns2:Color>
+                        <ns2:Feature>100% nuevo con alta calidad</ns2:Feature>
+                        <ns2:Feature>Tipo de Correa: Ajustable</ns2:Feature>
+                        <ns2:Feature>Material: Material: algodón</ns2:Feature>
+                        <ns2:ItemDimensions>
+                            <ns2:Weight Units="pounds">0.19</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:Label>Tongshi 1063</ns2:Label>
+                        <ns2:Manufacturer>Tongshi 1063</ns2:Manufacturer>
+                        <ns2:Model>Tongshi 1063</ns2:Model>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>Tongshi 1063</ns2:PartNumber>
+                        <ns2:ProductGroup>Ropa</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ACCESSORY</ns2:ProductTypeName>
+                        <ns2:Publisher>Tongshi 1063</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41Qa84z3aUL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Tongshi 1063</ns2:Studio>
+                        <ns2:Title>Tongshi Nueva unisex gorra de béisbol del algodón de la motocicleta Cap Edge Grinding
+                            Do Old Hat (amarillo)
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B015MF6FYM</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B01CUBKRJ0</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Varios</ns2:Binding>
+                        <ns2:Brand>Vovotrade®</ns2:Brand>
+                        <ns2:Color>azul</ns2:Color>
+                        <ns2:Feature>Unisex casual Solid Baseball Cap Trucker Mesh blanco sombrero de visera Gorra
+                            ajustable
+                        </ns2:Feature>
+                        <ns2:Feature>La circunferencia de la cabeza: 50-58cm / 19.69-22.83 "(ajustable)</ns2:Feature>
+                        <ns2:Feature>Material: Algodón</ns2:Feature>
+                        <ns2:Feature>Tamaño: un tamaño</ns2:Feature>
+                        <ns2:Feature>Adecuado para la temporada: primavera, verano, otoño</ns2:Feature>
+                        <ns2:IsAutographed>false</ns2:IsAutographed>
+                        <ns2:IsMemorabilia>false</ns2:IsMemorabilia>
+                        <ns2:Label>vovotrade</ns2:Label>
+                        <ns2:Manufacturer>vovotrade</ns2:Manufacturer>
+                        <ns2:MaterialType>Algodón</ns2:MaterialType>
+                        <ns2:PackageDimensions>
+                            <ns2:Weight Units="pounds">0.24</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>vovotrade</ns2:PartNumber>
+                        <ns2:ProductGroup>Deportes</ns2:ProductGroup>
+                        <ns2:ProductTypeName>SPORTING_GOODS</ns2:ProductTypeName>
+                        <ns2:Publisher>vovotrade</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41qLKnG-d3L._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>vovotrade</ns2:Studio>
+                        <ns2:Title>vovotrade Snapback gorra de béisbol sarga de algodón de colores unisex (azul)
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B01CUBKQSC</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00D4NAV9U</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Ropa</ns2:Binding>
+                        <ns2:Brand>Beechfield</ns2:Brand>
+                        <ns2:Color>Negro</ns2:Color>
+                        <ns2:Feature>Ajuste modelo Snap-tab.</ns2:Feature>
+                        <ns2:Feature>Perfecta para imprimir o bordar en ella.</ns2:Feature>
+                        <ns2:Feature>Talla única.</ns2:Feature>
+                        <ns2:Feature>Parte delantera y visera 100% algodón.</ns2:Feature>
+                        <ns2:Feature>Parte posterior 100% Nylon transpirable.</ns2:Feature>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:Model>UTRW260_9</ns2:Model>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">4.41</ns2:Height>
+                            <ns2:Length Units="inches">8.35</ns2:Length>
+                            <ns2:Width Units="inches">6.93</ns2:Width>
+                            <ns2:Weight Units="pounds">0.18</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>B00D4NAV9U</ns2:PartNumber>
+                        <ns2:ProductGroup>Ropa</ns2:ProductGroup>
+                        <ns2:ProductTypeName>HAT</ns2:ProductTypeName>
+                        <ns2:Size>Talla Única</ns2:Size>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41iwEZyvDIL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">60</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Title>Beechfield - Gorra/Visera hombre/chico Media tejido de abeja transpirable</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B00VAJYTKM</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00D4N66LM</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Ropa</ns2:Binding>
+                        <ns2:Brand>Beechfield</ns2:Brand>
+                        <ns2:Color>Negro/Rojo</ns2:Color>
+                        <ns2:Feature>Ajustador del tamaño modelo Tri-glide.</ns2:Feature>
+                        <ns2:Feature>Perfecta para imprimir o bordar en ella.</ns2:Feature>
+                        <ns2:Feature>100% algodón drill.</ns2:Feature>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:Model>UTRW222_14</ns2:Model>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">1.42</ns2:Height>
+                            <ns2:Length Units="inches">9.37</ns2:Length>
+                            <ns2:Width Units="inches">9.06</ns2:Width>
+                            <ns2:Weight Units="pounds">0.02</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>B00D4N66LM</ns2:PartNumber>
+                        <ns2:ProductGroup>Ropa</ns2:ProductGroup>
+                        <ns2:ProductTypeName>HAT</ns2:ProductTypeName>
+                        <ns2:Size>Talla Única</ns2:Size>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/31NDFMV2VXL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">60</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Title>Beechfield - Gorra/Visera 5 paneles Unisex deportiva Modelo Ultimate sandwich -
+                            Verano/Piscina - 100% algodón.
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B00RU3MWC4</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B0177O3DHS</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Brand>Malloom</ns2:Brand>
+                        <ns2:Color>café</ns2:Color>
+                        <ns2:Feature>Material: algodón mezclado</ns2:Feature>
+                        <ns2:Feature>Tamaño: cap alrededor 56-61 cm, después de ajustar el cinturón, borde entre 7.5 cm
+                            de largo, plano de 14 cm de ancho
+                        </ns2:Feature>
+                        <ns2:Feature>Tipo de Correa: Ajustable</ns2:Feature>
+                        <ns2:Feature>Conveniente para la estación: primavera, verano, otoño</ns2:Feature>
+                        <ns2:Feature>Elemento popular: hacer de edad</ns2:Feature>
+                        <ns2:PartNumber>Malloom®85</ns2:PartNumber>
+                        <ns2:ProductGroup>Cocina</ns2:ProductGroup>
+                        <ns2:ProductTypeName>HOME_BED_AND_BATH</ns2:ProductTypeName>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/410jvhOW-9L._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Title>Malloom® Nueva unisex gorra de béisbol algodón mezclado motocicleta Gorra molienda
+                            borde do old Sombrero (café)
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B0177O3D96</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>kitchen_display_on_website</ProductCategoryId>
+                        <Rank>4914</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>2935181031</ProductCategoryId>
+                        <Rank>20</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>2928521031</ProductCategoryId>
+                        <Rank>461</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00L3HVUFI</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Deportes</ns2:Binding>
+                        <ns2:Brand>Under Armour</ns2:Brand>
+                        <ns2:Color>blanco - blanco/negro</ns2:Color>
+                        <ns2:Department>hombre</ns2:Department>
+                        <ns2:Feature>Under Armour</ns2:Feature>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">3.00</ns2:Height>
+                            <ns2:Length Units="inches">9.00</ns2:Length>
+                            <ns2:Width Units="inches">10.00</ns2:Width>
+                            <ns2:Weight Units="pounds">1.00</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:Label>Under Armour</ns2:Label>
+                        <ns2:Manufacturer>Under Armour</ns2:Manufacturer>
+                        <ns2:MaterialType>100% poliéster</ns2:MaterialType>
+                        <ns2:Model>1257748</ns2:Model>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">1.89</ns2:Height>
+                            <ns2:Length Units="inches">7.01</ns2:Length>
+                            <ns2:Width Units="inches">5.91</ns2:Width>
+                            <ns2:Weight Units="pounds">0.22</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>1257748</ns2:PartNumber>
+                        <ns2:ProductGroup>Deportes</ns2:ProductGroup>
+                        <ns2:ProductTypeName>SPORTING_GOODS</ns2:ProductTypeName>
+                        <ns2:Publisher>Under Armour</ns2:Publisher>
+                        <ns2:Size>talla única</ns2:Size>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41BJkpTTq6L._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">66</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Under Armour</ns2:Studio>
+                        <ns2:Title>Under Armour Shadow 2.0 - Gorra deportiva, hombre, color blanco - blanco/negro,
+                            tamaño talla única
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B00SI0FOFK</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B01E599A2U</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Ropa</ns2:Binding>
+                        <ns2:Brand>MissFox</ns2:Brand>
+                        <ns2:Color>Blanco</ns2:Color>
+                        <ns2:Department>Hombre</ns2:Department>
+                        <ns2:Feature>Tipo de Correa: Ajustable</ns2:Feature>
+                        <ns2:Feature>La moda de estilo de diseño urbano, la función de proximidad con facilidad con que
+                            la ropa
+                        </ns2:Feature>
+                        <ns2:Feature>Conveniente para la estación: primavera, verano, otoño</ns2:Feature>
+                        <ns2:Feature>Perfecta para imprimir o bordar en ella.</ns2:Feature>
+                        <ns2:Feature>Tamaño universal apto para adultos</ns2:Feature>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:ProductGroup>Ropa</ns2:ProductGroup>
+                        <ns2:ProductTypeName>HAT</ns2:ProductTypeName>
+                        <ns2:Size>Talla Única</ns2:Size>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41N2rlKDGbL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Title>MissFox Sombrero Plano De Béisbol Accesorios Para Parejas Hip Hop Snapback Blanco
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B01E5C02LA</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B008ET4Y8I</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Sports Apparel</ns2:Binding>
+                        <ns2:Brand>Myrtle Beach</ns2:Brand>
+                        <ns2:Color>Anthracite/white</ns2:Color>
+                        <ns2:Department>unisex</ns2:Department>
+                        <ns2:Label>Myrtle Beach</ns2:Label>
+                        <ns2:Manufacturer>Myrtle Beach</ns2:Manufacturer>
+                        <ns2:Model>MB6555 anwh</ns2:Model>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">2.13</ns2:Height>
+                            <ns2:Length Units="inches">7.87</ns2:Length>
+                            <ns2:Width Units="inches">6.61</ns2:Width>
+                            <ns2:Weight Units="pounds">0.02</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:ProductGroup>Deportes</ns2:ProductGroup>
+                        <ns2:ProductTypeName>SPORTING_GOODS</ns2:ProductTypeName>
+                        <ns2:Publisher>Myrtle Beach</ns2:Publisher>
+                        <ns2:Size>One Size</ns2:Size>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41sKZNB7Q4L._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">47</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Myrtle Beach</ns2:Studio>
+                        <ns2:Title>Myrtle Beach Military Sandwich - Gorra gris anthracite/white Talla:talla única
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B008J0MV50</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B0154GM7A0</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Ropa</ns2:Binding>
+                        <ns2:Brand>Tongshi</ns2:Brand>
+                        <ns2:Color>L</ns2:Color>
+                        <ns2:Feature>100% nuevo con alta calidad</ns2:Feature>
+                        <ns2:Feature>Estilo: Gorra de béisbol</ns2:Feature>
+                        <ns2:Feature>Material: Algodón</ns2:Feature>
+                        <ns2:Feature>Tamaño: Un tamaño</ns2:Feature>
+                        <ns2:ItemDimensions>
+                            <ns2:Weight Units="pounds">0.15</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:Label>Tongshi 1063</ns2:Label>
+                        <ns2:Manufacturer>Tongshi 1063</ns2:Manufacturer>
+                        <ns2:Model>Tongshi 1063</ns2:Model>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>Tongshi 1063</ns2:PartNumber>
+                        <ns2:ProductGroup>Ropa</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ACCESSORY</ns2:ProductTypeName>
+                        <ns2:Publisher>Tongshi 1063</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/417Wz0sEOuL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Tongshi 1063</ns2:Studio>
+                        <ns2:Title>Tongshi Sombrero Casual Unisex Solid Gorra de béisbol del camionero de malla Visor en
+                            blanco ajustable del sombrero (L)
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B0154GM6RE</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B01DJ1SMGA</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Varios</ns2:Binding>
+                        <ns2:Brand>Tongshi</ns2:Brand>
+                        <ns2:Color>Gris</ns2:Color>
+                        <ns2:Feature>100 nuevo y de alta calidad.</ns2:Feature>
+                        <ns2:Feature>Alta calidad, suave, elástica, gruesa, caliente, lindo, de moda, se adapta a los
+                            niños y niñas.
+                        </ns2:Feature>
+                        <ns2:Feature>Circunferencia del sombrero: los 54CM-60 CM</ns2:Feature>
+                        <ns2:Feature>Material: Algodón</ns2:Feature>
+                        <ns2:Feature>El paquete incluye: 1 * Sombrero</ns2:Feature>
+                        <ns2:ItemDimensions>
+                            <ns2:Weight Units="pounds">0.19</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:IsAutographed>false</ns2:IsAutographed>
+                        <ns2:IsMemorabilia>false</ns2:IsMemorabilia>
+                        <ns2:Label>Tongshi 1063</ns2:Label>
+                        <ns2:Manufacturer>Tongshi 1063</ns2:Manufacturer>
+                        <ns2:Model>Tongshi 1063</ns2:Model>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>Tongshi 1063</ns2:PartNumber>
+                        <ns2:ProductGroup>Deportes</ns2:ProductGroup>
+                        <ns2:ProductTypeName>SPORTING_GOODS</ns2:ProductTypeName>
+                        <ns2:Publisher>Tongshi 1063</ns2:Publisher>
+                        <ns2:Size>Tamaño libre</ns2:Size>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/51rLOO5xoxL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Tongshi 1063</ns2:Studio>
+                        <ns2:Title>Tongshi Bordado de la manera Snapback Boy Hip Hop ajustable del sombrero gorra de
+                            béisbol unisex (Gris)
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B01DJ1SNK0</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+        </Products>
+    </ListMatchingProductsResult>
+    <ResponseMetadata>
+        <RequestId>2a5162ec-69c3-447d-b2e0-dc09535d7fb9</RequestId>
+    </ResponseMetadata>
+</ListMatchingProductsResponse>

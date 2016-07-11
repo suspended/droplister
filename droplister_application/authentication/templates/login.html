@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="{{ url_for('AUTH_BP.static', filename = 'logo_ico_text.png') }}"
+          type="image/x-icon">
+    <link rel="icon" href="{{ url_for('AUTH_BP.static', filename = 'logo_ico_text.png') }}"
+          type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    {% block login_head %}
+        <script src="{{ url_for('AUTH_BP.static', filename="js/jquery.js") }}"></script>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('AUTH_BP.static', filename='css/font-awesome.css') }}">
+        {# custom css for laogin page #}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('AUTH_BP.static', filename='css/custom.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('AUTH_BP.static', filename='css/zocial/zocial.css') }}">
+        <link rel="stylesheet" href="{{ url_for('AUTH_BP.static', filename="css/style.css") }}">
+        <!-- <script type="text/javascript" src="{ url_for('AUTH_BP.static', filename='js/facebook.js') }}"></script> -->
+        <script type="text/javascript" src="{{ url_for('AUTH_BP.static', filename='js/function.js') }}"></script>
+    {% endblock %}
+    {% block extrahead %}
+    {% endblock %}
+</head>
+<body>
+
+{% include 'messages.html' %}
+
+{% block content %}
+
+    <section class="main">
+        <form class="form-2" action="{{ url_for('AUTH_BP.login') }}" method="post">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+            <input type="hidden" name="next" value="{{ next or '' }}">
+
+            <h1>
+                <span class="log-in">{{ _('Log in') }}</span> {{ _('or') }}
+                <span class="password-forgotten">
+                    <a href="{{ url_for('AUTH_BP.forgotten_password') }}">{{ _('Forgot my password') }}</a>
+                </span>
+            </h1>
+
+            <p class="float">
+                <label for="login"><i class="icon-user"></i>{{ _('Email') }}</label>
+                <input type="text" name="email" placeholder="{{ _('Your email') }}">
+            </p>
+
+            <div class="float">
+                <label for="password"><i class="icon-lock"></i>{{ _('Password') }}</label>
+                <input type="password" name="password" placeholder="{{ _('Password') }}" class="showpassword">
+            </div>
+
+            <div class="clearfix">
+
+                <div class="cancel_login">
+                    <a href="{{ url_for("DL_BP.index") }}">{{ _('Cancel') }}</a>
+                </div>
+                <div class="">
+                    <input type="submit" name="submit" value="{{ _('Log in') }}">
+                </div>
+            </div>
+        </form>
+        ​​
+    </section>
+
+{% endblock %}
+
+</body>
+</html>

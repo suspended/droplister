@@ -1,0 +1,155 @@
+{
+  "Order": [
+    {
+      "OrderID": "110179214363-0",
+      "ShippingAddress": {
+        "Name": "None",
+        "ExternalAddressID": "None",
+        "Street1": "None",
+        "Street2": "None",
+        "CityName": "None",
+        "CountryName": "None",
+        "Phone": "None",
+        "PostalCode": "None",
+        "StateOrProvince": "None"
+      },
+      "PaymentHoldStatus": "None",
+      "BuyerUserID": "testuser_tigerdeveloper",
+      "SellerEmail": "andrydaniel88@gmail.com",
+      "CheckoutStatus": {
+        "Status": "Incomplete",
+        "PaymentMethod": "None",
+        "LastModifiedTime": "datetime",
+        "eBayPaymentStatus": "NoPaymentFailure",
+        "IntegratedMerchantCreditCardEnabled": "false"
+      },
+      "EIASToken": "nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GgD5GCpQSdj6x9nY+seQ==",
+      "AdjustmentAmount": {
+        "_currencyID": "USD",
+        "value": "0.0"
+      },
+      "IntegratedMerchantCreditCardEnabled": "false",
+      "ShippingServiceSelected": {
+        "ShippingService": "ShippingMethodStandard",
+        "ShippingServiceCost": {
+          "_currencyID": "USD",
+          "value": "5.0"
+        }
+      },
+      "IsMultiLegShipping": "false",
+      "OrderStatus": "Active",
+      "PaymentMethods": "PayPal",
+      "AmountSaved": {
+        "_currencyID": "USD",
+        "value": "0.0"
+      },
+      "TransactionArray": {
+        "Transaction": [
+          {
+            "Status": {
+              "PaymentHoldStatus": "None"
+            },
+            "TransactionPrice": {
+              "_currencyID": "USD",
+              "value": "5.0"
+            },
+            "TransactionSiteID": "US",
+            "Taxes": {
+              "TotalTaxAmount": {
+                "_currencyID": "USD",
+                "value": "0.0"
+              },
+              "TaxDetails": [
+                {
+                  "TaxAmount": {
+                    "_currencyID": "USD",
+                    "value": "0.0"
+                  },
+                  "TaxOnHandlingAmount": {
+                    "_currencyID": "USD",
+                    "value": "0.0"
+                  },
+                  "Imposition": "SalesTax",
+                  "TaxOnShippingAmount": {
+                    "_currencyID": "USD",
+                    "value": "0.0"
+                  },
+                  "TaxDescription": "SalesTax",
+                  "TaxOnSubtotalAmount": {
+                    "_currencyID": "USD",
+                    "value": "0.0"
+                  }
+                },
+                {
+                  "TaxAmount": {
+                    "_currencyID": "USD",
+                    "value": "0.0"
+                  },
+                  "Imposition": "WasteRecyclingFee",
+                  "TaxDescription": "ElectronicWasteRecyclingFee"
+                }
+              ]
+            },
+            "QuantityPurchased": "1",
+            "Item": {
+              "ItemID": "110179214363",
+              "ConditionID": "1000",
+              "Site": "US",
+              "ConditionDisplayName": "New",
+              "Title": "T Mobile Phone Lion Model the Ultimate Phone"
+            },
+            "Platform": "eBay",
+            "CreatedDate":"datetime",
+            "Buyer": {
+              "UserFirstName": "None",
+              "UserLastName": "None",
+              "Email": "addiaz@uci.cu"
+            },
+            "TransactionID": "0",
+            "OrderLineItemID": "110179214363-0",
+            "ShippingDetails": {
+              "SellingManagerSalesRecordNumber": "100"
+            }
+          }
+        ]
+      },
+      "CreatedTime": "datetime",
+      "Total": {
+        "_currencyID": "USD",
+        "value": "10.0"
+      },
+      "Subtotal": {
+        "_currencyID": "USD",
+        "value": "5.0"
+      },
+      "AmountPaid": {
+        "_currencyID": "USD",
+        "value": "0.0"
+      },
+      "ShippingDetails": {
+        "GetItFast": "false",
+        "SellingManagerSalesRecordNumber": "100",
+        "ShippingServiceOptions": {
+          "ShippingTimeMax": "6",
+          "ShippingServiceCost": {
+            "_currencyID": "USD",
+            "value": "5.0"
+          },
+          "ShippingServicePriority": "1",
+          "ShippingService": "ShippingMethodStandard",
+          "ExpeditedService": "false",
+          "ShippingTimeMin": "1"
+        },
+        "SalesTax": {
+          "SalesTaxPercent": "0.0",
+          "ShippingIncludedInTax": "false",
+          "SalesTaxAmount": {
+            "_currencyID": "USD",
+            "value": "0.0"
+          },
+          "SalesTaxState": "None"
+        }
+      }
+    }
+  ]
+}

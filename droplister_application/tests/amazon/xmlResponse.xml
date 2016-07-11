@@ -1,0 +1,669 @@
+<?xml version="1.0"?>
+<ListMatchingProductsResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <ListMatchingProductsResult>
+        <Products xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
+                  xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00K0O8HFQ</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Versión Kindle</ns2:Binding>
+                        <ns2:Creator Role="Autor">Severance, Charles Russell</ns2:Creator>
+                        <ns2:Edition>1</ns2:Edition>
+                        <ns2:Format>eBook Kindle</ns2:Format>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:NumberOfPages>250</ns2:NumberOfPages>
+                        <ns2:ProductGroup>Libro digital</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_EBOOKS</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2014-04-28</ns2:PublicationDate>
+                        <ns2:ReleaseDate>2014-04-28</ns2:ReleaseDate>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/419frpsBEGL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">53</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Title>Python for Informatics: Exploring Information: Exploring Information (English
+                            Edition)
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>151708881X</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Tapa blanda</ns2:Binding>
+                        <ns2:Creator Role="Autor">Severance, Dr. Charles Russell</ns2:Creator>
+                        <ns2:Creator Role="Traductor">Muniz, Fernando Tardio</ns2:Creator>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">10.00</ns2:Height>
+                            <ns2:Length Units="inches">7.00</ns2:Length>
+                            <ns2:Width Units="inches">0.58</ns2:Width>
+                            <ns2:Weight Units="pounds">1.00</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:Label>Createspace</ns2:Label>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Idioma original</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Desconocido</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:ListPrice>
+                            <ns2:Amount>9.13</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>Createspace</ns2:Manufacturer>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:NumberOfPages>256</ns2:NumberOfPages>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">0.71</ns2:Height>
+                            <ns2:Length Units="inches">9.92</ns2:Length>
+                            <ns2:Width Units="inches">7.09</ns2:Width>
+                            <ns2:Weight Units="pounds">1.19</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PartNumber>black &amp; white illustrations</ns2:PartNumber>
+                        <ns2:ProductGroup>Libro</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2015-08-29</ns2:PublicationDate>
+                        <ns2:Publisher>Createspace</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41iL7Nktd6L._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">53</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Createspace</ns2:Studio>
+                        <ns2:Title>Python para informaticos: Explorando la informacion</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>book_display_on_website</ProductCategoryId>
+                        <Rank>15347</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>902659031</ProductCategoryId>
+                        <Rank>78</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00R9JPDN4</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Versión Kindle</ns2:Binding>
+                        <ns2:Creator Role="Autor">Publishing, LCF</ns2:Creator>
+                        <ns2:Creator Role="Autor">Chan, Jamie</ns2:Creator>
+                        <ns2:Edition>1</ns2:Edition>
+                        <ns2:Format>eBook Kindle</ns2:Format>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:Label>Learn Coding Fast</ns2:Label>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:Manufacturer>Learn Coding Fast</ns2:Manufacturer>
+                        <ns2:NumberOfPages>124</ns2:NumberOfPages>
+                        <ns2:ProductGroup>Libro digital</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_EBOOKS</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2014-12-19</ns2:PublicationDate>
+                        <ns2:Publisher>Learn Coding Fast</ns2:Publisher>
+                        <ns2:ReleaseDate>2014-12-19</ns2:ReleaseDate>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/51LUUleSY2L._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">56</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Learn Coding Fast</ns2:Studio>
+                        <ns2:Title>Python: Learn Python in One Day and Learn It Well. Python for Beginners with Hands-on
+                            Project. (Learn Coding Fast with Hands-On Project Book 1) (English Edition)
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ebooks_display_on_website</ProductCategoryId>
+                        <Rank>3098</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>1350116031</ProductCategoryId>
+                        <Rank>2</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>903446031</ProductCategoryId>
+                        <Rank>7</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>1350122031</ProductCategoryId>
+                        <Rank>10</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>8441525137</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Tapa blanda</ns2:Binding>
+                        <ns2:Creator Role="Autor">Knowlton, Jim</ns2:Creator>
+                        <ns2:Edition>edición</ns2:Edition>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">9.00</ns2:Height>
+                            <ns2:Length Units="inches">0.75</ns2:Length>
+                            <ns2:Width Units="inches">7.00</ns2:Width>
+                            <ns2:Weight Units="pounds">1.00</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:Label>ANAYA MULTIMEDIA</ns2:Label>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Idioma original</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Desconocido</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:ListPrice>
+                            <ns2:Amount>31.00</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>ANAYA MULTIMEDIA</ns2:Manufacturer>
+                        <ns2:NumberOfPages>272</ns2:NumberOfPages>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">0.63</ns2:Height>
+                            <ns2:Length Units="inches">8.82</ns2:Length>
+                            <ns2:Width Units="inches">6.85</ns2:Width>
+                            <ns2:Weight Units="pounds">1.06</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:ProductGroup>Libro</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2009-01-12</ns2:PublicationDate>
+                        <ns2:Publisher>ANAYA MULTIMEDIA</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/410k7OLmXhL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">58</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>ANAYA MULTIMEDIA</ns2:Studio>
+                        <ns2:Title>Python (Anaya Multimedia/Wrox)</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>book_display_on_website</ProductCategoryId>
+                        <Rank>61315</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>902662031</ProductCategoryId>
+                        <Rank>57</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>902659031</ProductCategoryId>
+                        <Rank>231</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>1449355730</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Tapa blanda</ns2:Binding>
+                        <ns2:Creator Role="Autor">Mark Lutz</ns2:Creator>
+                        <ns2:Edition>5</ns2:Edition>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">9.19</ns2:Height>
+                            <ns2:Length Units="inches">7.00</ns2:Length>
+                            <ns2:Width Units="inches">2.80</ns2:Width>
+                            <ns2:Weight Units="pounds">4.80</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:Label>O'Reilly Media</ns2:Label>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Idioma original</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Desconocido</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:ListPrice>
+                            <ns2:Amount>54.08</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>O'Reilly Media</ns2:Manufacturer>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:NumberOfPages>1600</ns2:NumberOfPages>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">3.10</ns2:Height>
+                            <ns2:Length Units="inches">9.30</ns2:Length>
+                            <ns2:Width Units="inches">7.10</ns2:Width>
+                            <ns2:Weight Units="pounds">5.45</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>9781449365226</ns2:PartNumber>
+                        <ns2:ProductGroup>Libro</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2013-07-06</ns2:PublicationDate>
+                        <ns2:Publisher>O'Reilly Media</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/515iBchIIzL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">57</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>O'Reilly Media</ns2:Studio>
+                        <ns2:Title>Learning Python</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>english_book_display_on_website</ProductCategoryId>
+                        <Rank>17442</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>903450031</ProductCategoryId>
+                        <Rank>189</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>903452031</ProductCategoryId>
+                        <Rank>376</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>665418031</ProductCategoryId>
+                        <Rank>13744</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>8441536511</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Tapa blanda</ns2:Binding>
+                        <ns2:Brand>Anaya Multimedia</ns2:Brand>
+                        <ns2:Creator Role="Autor">Shaw, Zed A.</ns2:Creator>
+                        <ns2:Edition>edición</ns2:Edition>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">8.86</ns2:Height>
+                            <ns2:Length Units="inches">6.89</ns2:Length>
+                            <ns2:Width Units="inches">0.79</ns2:Width>
+                        </ns2:ItemDimensions>
+                        <ns2:Label>Anaya Multimedia</ns2:Label>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Idioma original</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Desconocido</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:ListPrice>
+                            <ns2:Amount>31.00</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>Anaya Multimedia</ns2:Manufacturer>
+                        <ns2:NumberOfPages>296</ns2:NumberOfPages>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">1.02</ns2:Height>
+                            <ns2:Length Units="inches">8.82</ns2:Length>
+                            <ns2:Width Units="inches">6.85</ns2:Width>
+                            <ns2:Weight Units="pounds">1.06</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:ProductGroup>Libro</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2014-11-06</ns2:PublicationDate>
+                        <ns2:Publisher>Anaya Multimedia</ns2:Publisher>
+                        <ns2:ReleaseDate>2014-11-06</ns2:ReleaseDate>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/61Vxj5wFVQL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">58</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Anaya Multimedia</ns2:Studio>
+                        <ns2:Title>Aprenda A Programar Con Python (Títulos Especiales)</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>book_display_on_website</ProductCategoryId>
+                        <Rank>43654</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>902659031</ProductCategoryId>
+                        <Rank>174</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>1449357016</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Tapa blanda</ns2:Binding>
+                        <ns2:Creator Role="Autor">Mark Lutz</ns2:Creator>
+                        <ns2:Edition>5</ns2:Edition>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">7.00</ns2:Height>
+                            <ns2:Length Units="inches">0.50</ns2:Length>
+                            <ns2:Width Units="inches">4.25</ns2:Width>
+                            <ns2:Weight Units="pounds">0.41</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:Label>O'Reilly Media</ns2:Label>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Idioma original</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Desconocido</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:ListPrice>
+                            <ns2:Amount>12.48</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>O'Reilly Media</ns2:Manufacturer>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:NumberOfPages>266</ns2:NumberOfPages>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">0.50</ns2:Height>
+                            <ns2:Length Units="inches">6.90</ns2:Length>
+                            <ns2:Width Units="inches">4.20</ns2:Width>
+                            <ns2:Weight Units="pounds">0.35</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:ProductGroup>Libro</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2014-02-09</ns2:PublicationDate>
+                        <ns2:Publisher>O'Reilly Media</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/517k0XB9ogL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">46</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>O'Reilly Media</ns2:Studio>
+                        <ns2:Title>Python Pocket Reference (Pocket Reference (O'Reilly))</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>english_book_display_on_website</ProductCategoryId>
+                        <Rank>8670</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>903452031</ProductCategoryId>
+                        <Rank>196</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>665418031</ProductCategoryId>
+                        <Rank>6897</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00FPW1QVA</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Versión Kindle</ns2:Binding>
+                        <ns2:Creator Role="Autor">R., Patricia González</ns2:Creator>
+                        <ns2:Format>eBook Kindle</ns2:Format>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:NumberOfPages>142</ns2:NumberOfPages>
+                        <ns2:ProductGroup>Libro digital</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_EBOOKS</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2013-10-07</ns2:PublicationDate>
+                        <ns2:ReleaseDate>2013-10-07</ns2:ReleaseDate>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41J--rjWmVL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">53</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Title>Python 3 para no programadores</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ebooks_display_on_website</ProductCategoryId>
+                        <Rank>11541</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>1349657031</ProductCategoryId>
+                        <Rank>40</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>902659031</ProductCategoryId>
+                        <Rank>74</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>2746094274</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Tapa blanda</ns2:Binding>
+                        <ns2:Brand>Eni</ns2:Brand>
+                        <ns2:Creator Role="Escritor">Sébastien Chazallet</ns2:Creator>
+                        <ns2:Label>ENI</ns2:Label>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>spanish</ns2:Name>
+                                <ns2:Type>Desconocido</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:ListPrice>
+                            <ns2:Amount>38.90</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>ENI</ns2:Manufacturer>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">1.81</ns2:Height>
+                            <ns2:Length Units="inches">8.19</ns2:Length>
+                            <ns2:Width Units="inches">6.85</ns2:Width>
+                            <ns2:Weight Units="pounds">2.91</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:ProductGroup>Libro</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2015-01-20</ns2:PublicationDate>
+                        <ns2:Publisher>ENI</ns2:Publisher>
+                        <ns2:ReleaseDate>2015-01-20</ns2:ReleaseDate>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/51yXV5ybxsL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">65</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>ENI</ns2:Studio>
+                        <ns2:Title>Python 3. Los Fundamentos Del Lenguaje</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>book_display_on_website</ProductCategoryId>
+                        <Rank>6449</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>1449319793</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Tapa blanda</ns2:Binding>
+                        <ns2:Creator Role="Autor">Wes McKinney</ns2:Creator>
+                        <ns2:Edition>1</ns2:Edition>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">9.19</ns2:Height>
+                            <ns2:Length Units="inches">7.00</ns2:Length>
+                            <ns2:Width Units="inches">0.90</ns2:Width>
+                            <ns2:Weight Units="pounds">1.59</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:Label>O'Reilly Media</ns2:Label>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Publicado</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Idioma original</ns2:Type>
+                            </ns2:Language>
+                            <ns2:Language>
+                                <ns2:Name>english</ns2:Name>
+                                <ns2:Type>Desconocido</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:ListPrice>
+                            <ns2:Amount>33.28</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>O'Reilly Media</ns2:Manufacturer>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:NumberOfPages>466</ns2:NumberOfPages>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">0.94</ns2:Height>
+                            <ns2:Length Units="inches">9.21</ns2:Length>
+                            <ns2:Width Units="inches">7.01</ns2:Width>
+                            <ns2:Weight Units="pounds">1.76</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:ProductGroup>Libro</ns2:ProductGroup>
+                        <ns2:ProductTypeName>ABIS_BOOK</ns2:ProductTypeName>
+                        <ns2:PublicationDate>2012-11-01</ns2:PublicationDate>
+                        <ns2:Publisher>O'Reilly Media</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/514byZUF8nL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">57</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>O'Reilly Media</ns2:Studio>
+                        <ns2:Title>Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>english_book_display_on_website</ProductCategoryId>
+                        <Rank>9540</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>903448031</ProductCategoryId>
+                        <Rank>125</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>903452031</ProductCategoryId>
+                        <Rank>218</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>665418031</ProductCategoryId>
+                        <Rank>7560</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+        </Products>
+    </ListMatchingProductsResult>
+    <ResponseMetadata>
+        <RequestId>5e5a8f3c-0d5e-40dd-883e-ddf329440ab0</RequestId>
+    </ResponseMetadata>
+</ListMatchingProductsResponse>

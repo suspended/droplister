@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- JQUERY AND PLUGINS-->
+<script src="{{ url_for('DL_BP.static', filename="js/library/jquery.js") }}"></script>
+<script src="{{ url_for('DL_BP.static', filename="js/library/jquery.mousewheel.min.js") }}"></script>
+<script src="{{ url_for('DL_BP.static', filename="js/library/jquery.touchSwipe.min.js") }}"></script>
+
+<!-- DropLister MAIN JavaScript-->
+<script src="{{ url_for('DL_BP.static', filename="js/main.js") }}"></script>
+
+<!-- Moment JS for dates -->
+<script type="text/javascript" src="{{ url_for('DL_BP.static', filename="js/library/moment.min.js") }}"></script>
+
+<!-- Semantic UI Master -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('DL_BP.static', filename="css/main.css") }}">
+<script src="{{ url_for('DL_BP.static', filename="semantic_2.1.8/semantic.js") }}"></script>
+
+<!-- freCarousel-->
+<script src="{{ url_for('DL_BP.static', filename="caroFredSel/jquery.carouFredSel-6.2.1.js") }}"></script>
+<!-- <link rel="stylesheet" href="{ url_for('static', filename="caroFredSel/main.css") }}"> -->
+
+<!-- Jquery Finger is a framework for working with Touch screen-->
+<script src="{{ url_for('DL_BP.static', filename="js/library/jquery.finger.min.js") }}"></script>
+
+
+{# GLOBALS JAVASCRIPT VARIABLES #}
+<script type="text/javascript">
+    function get_xhr_gateway() {
+        return "{{ g.xhr_gateway_url }}";
+    }
+</script>

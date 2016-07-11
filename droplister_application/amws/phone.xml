@@ -1,0 +1,790 @@
+<?xml version="1.0"?>
+<ListMatchingProductsResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+    <ListMatchingProductsResult>
+        <Products xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01"
+                  xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00Q6GK4E4</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Electrónica</ns2:Binding>
+                        <ns2:Brand>Energy Sistem</ns2:Brand>
+                        <ns2:Color>FALSE</ns2:Color>
+                        <ns2:CPUManufacturer>Unknown</ns2:CPUManufacturer>
+                        <ns2:CPUSpeed Units="GHz">1</ns2:CPUSpeed>
+                        <ns2:Creator Role="Diseñador">Energy-Soyntec</ns2:Creator>
+                        <ns2:DisplaySize Units="inches">4</ns2:DisplaySize>
+                        <ns2:Feature>3 carcasas intercambiables de color incluidas</ns2:Feature>
+                        <ns2:Feature>Sistema operativo Android 4.4 Kit Kat; Procesador ARM Cortex A7 1GHz y GPU
+                            Mali-400
+                        </ns2:Feature>
+                        <ns2:Feature>Pantalla táctil de 4.0" TFT-LCD WVGA 800 x 480p con tecnología de última
+                            generación
+                        </ns2:Feature>
+                        <ns2:Feature>Una frontal y otra trasera de 5 MP Auto-focus para videoconferencias, fotografías y
+                            videos
+                        </ns2:Feature>
+                        <ns2:Feature>Dos entradas de tarjeta SIM para libre elección de operadora</ns2:Feature>
+                        <ns2:HardDiskSize Units="GB">4</ns2:HardDiskSize>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">4.91</ns2:Height>
+                            <ns2:Length Units="inches">2.50</ns2:Length>
+                            <ns2:Width Units="inches">0.42</ns2:Width>
+                            <ns2:Weight Units="pounds">0.31</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:IsAutographed>false</ns2:IsAutographed>
+                        <ns2:IsMemorabilia>false</ns2:IsMemorabilia>
+                        <ns2:Label>Energy Sistem</ns2:Label>
+                        <ns2:ListPrice>
+                            <ns2:Amount>64.90</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>Energy Sistem</ns2:Manufacturer>
+                        <ns2:MediaType>small</ns2:MediaType>
+                        <ns2:Model>421787</ns2:Model>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:OperatingSystem>Android 4.4</ns2:OperatingSystem>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">2.68</ns2:Height>
+                            <ns2:Length Units="inches">6.61</ns2:Length>
+                            <ns2:Width Units="inches">3.62</ns2:Width>
+                            <ns2:Weight Units="pounds">0.93</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>421787</ns2:PartNumber>
+                        <ns2:Platform>Android</ns2:Platform>
+                        <ns2:ProcessorCount>2</ns2:ProcessorCount>
+                        <ns2:ProductGroup>CE</ns2:ProductGroup>
+                        <ns2:ProductTypeName>PHONE</ns2:ProductTypeName>
+                        <ns2:Publisher>Energy Sistem</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41AMTYsQOBL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Energy Sistem</ns2:Studio>
+                        <ns2:SystemMemorySize Units="GB">0.512</ns2:SystemMemorySize>
+                        <ns2:Title>Energy Sistem Phone Colors - Smartphone libre Android (pantalla 4", cámara 5 Mp, 4
+                            GB, ARM Cortex A7 1 GHz, GPU Mali-400, 512 MB RAM), multicolor
+                        </ns2:Title>
+                        <ns2:WEEETaxValue>
+                            <ns2:Amount>0.00</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:WEEETaxValue>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ce_display_on_website</ProductCategoryId>
+                        <Rank>349</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>934197031</ProductCategoryId>
+                        <Rank>33</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B012C47W4S</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Electrónica</ns2:Binding>
+                        <ns2:Brand>Samsung</ns2:Brand>
+                        <ns2:Color>blanco</ns2:Color>
+                        <ns2:CPUSpeed Units="GHz">1.2</ns2:CPUSpeed>
+                        <ns2:DisplaySize Units="inches">5</ns2:DisplaySize>
+                        <ns2:Feature>Imágenes nítidas y brillantes gracias a su pantalla Super AMOLED de 5"
+                        </ns2:Feature>
+                        <ns2:Feature>Potente procesador Quad Core a 1.2 GHz para poder navegar en Internet, jugar,
+                            reproducir videos en HD con máxima fluidez
+                        </ns2:Feature>
+                        <ns2:Feature>Consigue fotos y vídeos nítidos y luminosos gracias a su cámara trasera de 13
+                            megapíxeles y apertura f/1.9
+                        </ns2:Feature>
+                        <ns2:Feature>Con Smart Manager podrás comprobar y controlar la información básica del Galaxy J5
+                            como el estado de la batería, el almacenamiento o la memoria
+                        </ns2:Feature>
+                        <ns2:Feature>Incorpora el Modo Ultrahorro de energía para que gestiones mejor el gasto de la
+                            batería
+                        </ns2:Feature>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">0.31</ns2:Height>
+                            <ns2:Length Units="inches">5.59</ns2:Length>
+                            <ns2:Width Units="inches">2.83</ns2:Width>
+                            <ns2:Weight Units="pounds">0.32</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:Label>Samsung Spain</ns2:Label>
+                        <ns2:Manufacturer>Samsung Spain</ns2:Manufacturer>
+                        <ns2:MediaType>MP3</ns2:MediaType>
+                        <ns2:Model>Galaxy J5</ns2:Model>
+                        <ns2:OperatingSystem>Android</ns2:OperatingSystem>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">1.97</ns2:Height>
+                            <ns2:Length Units="inches">5.98</ns2:Length>
+                            <ns2:Width Units="inches">3.15</ns2:Width>
+                            <ns2:Weight Units="pounds">0.62</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>SM-J500FZWAXEF</ns2:PartNumber>
+                        <ns2:ProcessorCount>4</ns2:ProcessorCount>
+                        <ns2:ProductGroup>CE</ns2:ProductGroup>
+                        <ns2:ProductTypeName>PHONE</ns2:ProductTypeName>
+                        <ns2:Publisher>Samsung Spain</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41vRHFpPPFL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Samsung Spain</ns2:Studio>
+                        <ns2:SystemMemorySize Units="MB">1536</ns2:SystemMemorySize>
+                        <ns2:Title>Samsung Galaxy J5 - Smartphone libre Android (pantalla 5", cámara 13 Mp, 8 GB,
+                            Quad-Core 1.2 GHz, 1.5 GB RAM), blanco
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ce_display_on_website</ProductCategoryId>
+                        <Rank>71</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>934197031</ProductCategoryId>
+                        <Rank>10</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00W1KSGFI</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Electrónica</ns2:Binding>
+                        <ns2:Brand>Huawei</ns2:Brand>
+                        <ns2:Color>Blanco</ns2:Color>
+                        <ns2:CPUManufacturer>Hi-Silicon</ns2:CPUManufacturer>
+                        <ns2:CPUSpeed Units="GHz">1.2</ns2:CPUSpeed>
+                        <ns2:Creator Role="Diseñador">HUAWEI</ns2:Creator>
+                        <ns2:DisplaySize Units="inches">5</ns2:DisplaySize>
+                        <ns2:Feature>Pantalla táctil capacitiva IPS LCD con 16 millones colores</ns2:Feature>
+                        <ns2:Feature>Cámara frontal de 13 Mp, f/2.0, 27 mm con enfoque automático y flash led dual
+                        </ns2:Feature>
+                        <ns2:Feature>Procesador Octa-core 1.2 GHz Cortex-A53 y sistema operativo Android v 5.0.2
+                            Lollipop
+                        </ns2:Feature>
+                        <ns2:Feature>Memoria interna de 16 GB (ampliable a 128 GB)</ns2:Feature>
+                        <ns2:HardDiskSize Units="GB">16</ns2:HardDiskSize>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">5.71</ns2:Height>
+                            <ns2:Length Units="inches">0.24</ns2:Length>
+                            <ns2:Width Units="inches">2.83</ns2:Width>
+                            <ns2:Weight Units="pounds">0.29</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+                        <ns2:IsAutographed>false</ns2:IsAutographed>
+                        <ns2:IsMemorabilia>false</ns2:IsMemorabilia>
+                        <ns2:Label>Huawei</ns2:Label>
+                        <ns2:ListPrice>
+                            <ns2:Amount>300.00</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>Huawei</ns2:Manufacturer>
+                        <ns2:MediaType>H.263, H.264, RV, VC-1, VP8, WMV9, XVID</ns2:MediaType>
+                        <ns2:MediaType>H.263, H.264, MPEG4</ns2:MediaType>
+                        <ns2:Model>51094712</ns2:Model>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:OperatingSystem>Android L</ns2:OperatingSystem>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">2.52</ns2:Height>
+                            <ns2:Length Units="inches">6.46</ns2:Length>
+                            <ns2:Width Units="inches">3.31</ns2:Width>
+                            <ns2:Weight Units="pounds">0.93</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>51094712</ns2:PartNumber>
+                        <ns2:Platform>Android</ns2:Platform>
+                        <ns2:ProcessorCount>8</ns2:ProcessorCount>
+                        <ns2:ProductGroup>CE</ns2:ProductGroup>
+                        <ns2:ProductTypeName>PHONE</ns2:ProductTypeName>
+                        <ns2:Publisher>Huawei</ns2:Publisher>
+                        <ns2:Size>Individual</ns2:Size>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41WonLai7OL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">38</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Huawei</ns2:Studio>
+                        <ns2:SystemMemorySize Units="GB">2</ns2:SystemMemorySize>
+                        <ns2:Title>Huawei P8 Lite - Smartphone libre Android (pantalla 5", cámara 13 Mp, 16 GB,
+                            HiSilicon Kirin 620 Octa Core 1.2 GHz, 2 GB RAM), color blanco
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B01EYQWBMA</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ce_display_on_website</ProductCategoryId>
+                        <Rank>11</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>934197031</ProductCategoryId>
+                        <Rank>2</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00NGOCP64</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Electrónica</ns2:Binding>
+                        <ns2:Brand>Apple</ns2:Brand>
+                        <ns2:Color>Plateado</ns2:Color>
+                        <ns2:CPUManufacturer>Apple</ns2:CPUManufacturer>
+                        <ns2:CPUSpeed Units="GHz">1.4</ns2:CPUSpeed>
+                        <ns2:DisplaySize Units="inches">4.7</ns2:DisplaySize>
+                        <ns2:Feature>Nueva pantalla Retina HD de 4.7 pulgadas con resolución 1920 × 1080</ns2:Feature>
+                        <ns2:Feature>Velocidades de descarga 4G LTE ultrarrápidas. Compatible con más bandas LTE para
+                            poder acceder a Internet en más lugares del mundo
+                        </ns2:Feature>
+                        <ns2:Feature>Nuevo chip A8, desarrollado con tecnología de 64 bits</ns2:Feature>
+                        <ns2:Feature>Conexión WiFi hasta tres veces más rápida</ns2:Feature>
+                        <ns2:Feature>Revolucionaria tecnología Touch ID: muy fácil proteger tu iPhone con la contraseña
+                            perfecta, tu huella dactilar
+                        </ns2:Feature>
+                        <ns2:HardDiskSize Units="GB">16</ns2:HardDiskSize>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">54.37</ns2:Height>
+                            <ns2:Length Units="inches">0.28</ns2:Length>
+                            <ns2:Width Units="inches">2.72</ns2:Width>
+                            <ns2:Weight Units="pounds">0.28</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:ItemPartNumber>MG482ZDA</ns2:ItemPartNumber>
+                        <ns2:Label>Apple Computer</ns2:Label>
+                        <ns2:ListPrice>
+                            <ns2:Amount>829.00</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>Apple Computer</ns2:Manufacturer>
+                        <ns2:MaximumResolution Units="megapixels">8</ns2:MaximumResolution>
+                        <ns2:MediaType>AVI, M4V, MOV, MP4</ns2:MediaType>
+                        <ns2:MediaType>GIF, JPG, TIF</ns2:MediaType>
+                        <ns2:MediaType>H.264, M-JPEG, MPEG4</ns2:MediaType>
+                        <ns2:Model>MG482QL/A</ns2:Model>
+                        <ns2:OperatingSystem>iOS 8</ns2:OperatingSystem>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">1.89</ns2:Height>
+                            <ns2:Length Units="inches">6.14</ns2:Length>
+                            <ns2:Width Units="inches">3.31</ns2:Width>
+                            <ns2:Weight Units="pounds">0.93</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>MG482QL/A</ns2:PartNumber>
+                        <ns2:Platform>iOS</ns2:Platform>
+                        <ns2:ProcessorCount>2</ns2:ProcessorCount>
+                        <ns2:ProductGroup>CE</ns2:ProductGroup>
+                        <ns2:ProductTypeName>PHONE</ns2:ProductTypeName>
+                        <ns2:Publisher>Apple Computer</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/51umd0xlszL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">37</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Apple Computer</ns2:Studio>
+                        <ns2:SystemMemorySize Units="MB">1024</ns2:SystemMemorySize>
+                        <ns2:Title>Apple iPhone 6 - Smartphone libre iOS (pantalla 4.7", cámara 8 Mp, 16 GB, Dual-Core
+                            1.4 GHz, 1 GB RAM), plata
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ce_display_on_website</ProductCategoryId>
+                        <Rank>3241</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>934197031</ProductCategoryId>
+                        <Rank>215</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B019JDBH8M</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Electrónica</ns2:Binding>
+                        <ns2:Brand>iNew</ns2:Brand>
+                        <ns2:Feature>Possibly the smallest phone in the world, the iNew Mini 1 easily fits in your
+                            wallet or purse Quad Band GSM support and Bluetooth connectivity let it work with or without
+                            your smartphone With call and messaging functions you have all the essentials without you
+                            being weighed down
+                        </ns2:Feature>
+                        <ns2:Feature>When it comes to small compact phones they don't get much smaller than the credit
+                            card sized iNew Mini 1. Weighing just 29 grams and with similar credit card size dimensions
+                            this 4 mm thick phone can slide into your wallet, purse or a small pocket and takes up
+                            virtually no room at all
+                        </ns2:Feature>
+                        <ns2:Feature>The iNew Mini ! brings you quad band GSM connectivity brining it great network
+                            coverage across 850/900/1800/1900MHz frequencies
+                        </ns2:Feature>
+                        <ns2:Feature>A bright OLED display and responsive touch pad makes this compact phone easy to
+                            use. As well as working fully independently you can also use the iNew Mini as a Bluetooth
+                            addition to your Smartphone
+                        </ns2:Feature>
+                        <ns2:Feature>Just use its Bluetooth connectivity and sync it to you Smartphone then you can
+                            answer calls, play music, make calls and even use it as a remote trigger for your phones
+                            camera. With a 320mAh battery this energy efficient phone brings you up to 2 hours of
+                            continuous talk time so it's perfect for an evening out or whenever you just want to travel
+                            light
+                        </ns2:Feature>
+                        <ns2:Label>ShoppingDay</ns2:Label>
+                        <ns2:Manufacturer>ShoppingDay</ns2:Manufacturer>
+                        <ns2:Model>HTAFI-M876</ns2:Model>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">1.02</ns2:Height>
+                            <ns2:Length Units="inches">4.96</ns2:Length>
+                            <ns2:Width Units="inches">3.46</ns2:Width>
+                            <ns2:Weight Units="pounds">0.99</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>HTAFI-M876</ns2:PartNumber>
+                        <ns2:ProductGroup>CE</ns2:ProductGroup>
+                        <ns2:ProductTypeName>PHONE</ns2:ProductTypeName>
+                        <ns2:Publisher>ShoppingDay</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41M1-gZQqcL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>ShoppingDay</ns2:Studio>
+                        <ns2:Title>iNew Mini 1 Credit Card Phone mini Teléfono tarjeta de crédito - Quad Band GSM,
+                            Bluetooth Support, Camera Trigger
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ce_display_on_website</ProductCategoryId>
+                        <Rank>24095</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>934197031</ProductCategoryId>
+                        <Rank>925</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00KX10WTK</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Accesorio teléfono inalámbrico</ns2:Binding>
+                        <ns2:Brand>wholesaleintheworld</ns2:Brand>
+                        <ns2:Color>Negro</ns2:Color>
+                        <ns2:Label>wholesaleintheworld</ns2:Label>
+                        <ns2:Manufacturer>wholesaleintheworld</ns2:Manufacturer>
+                        <ns2:Model>SZC-3545-BK</ns2:Model>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">2.76</ns2:Height>
+                            <ns2:Length Units="inches">4.80</ns2:Length>
+                            <ns2:Width Units="inches">3.23</ns2:Width>
+                            <ns2:Weight Units="pounds">0.44</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>Noza Tec U8</ns2:PartNumber>
+                        <ns2:ProductGroup>Deportes</ns2:ProductGroup>
+                        <ns2:ProductTypeName>WIRELESS_ACCESSORY</ns2:ProductTypeName>
+                        <ns2:Publisher>wholesaleintheworld</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/51jHeks-%2BeL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>wholesaleintheworld</ns2:Studio>
+                        <ns2:Title>U8 Bluetooth Smart Wrist Watch Phone Mate For IOS Android Samsung HTC iPhone 5S
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B00KX10UYM</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings/>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00KBT57UI</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Electrónica</ns2:Binding>
+                        <ns2:Brand>Energy Sistem</ns2:Brand>
+                        <ns2:Color>FALSE</ns2:Color>
+                        <ns2:CPUSpeed Units="MHz">1700</ns2:CPUSpeed>
+                        <ns2:Creator Role="Diseñador">Energy Sistem</ns2:Creator>
+                        <ns2:DisplaySize Units="inches">5</ns2:DisplaySize>
+                        <ns2:Feature>Pantalla multitáctil capacitiva OGS de 5.0" IPS Full HD con protección Dragontrail
+                            glass, ángulo de visión y calidad de imagen excepcionales
+                        </ns2:Feature>
+                        <ns2:Feature>Procesador de ocho núcleos ARM Cortex A7 1.7 GHz y GPU Mali-450</ns2:Feature>
+                        <ns2:Feature>Cámaras frontal 5 MP, FOV 88° con flash y trasera de 13 MP auto-focus con doble
+                            flash para fotografías y vídeos en Full HD
+                        </ns2:Feature>
+                        <ns2:Feature>32 GB de memoria para almacenar aplicaciones, juegos, fotos, eBooks y hasta 128
+                            horas de vídeo o 16000 canciones
+                        </ns2:Feature>
+                        <ns2:Feature>Carga tu smartphone sin cables ni complicaciones; Conectividad NFC (Near Field
+                            Communication) y Bluetooth 4.0
+                        </ns2:Feature>
+                        <ns2:HardDiskSize Units="GB">32</ns2:HardDiskSize>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">5.63</ns2:Height>
+                            <ns2:Length Units="inches">2.72</ns2:Length>
+                            <ns2:Width Units="inches">0.38</ns2:Width>
+                            <ns2:Weight Units="pounds">0.32</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:IsAutographed>false</ns2:IsAutographed>
+                        <ns2:IsMemorabilia>false</ns2:IsMemorabilia>
+                        <ns2:Label>Energy Sistem</ns2:Label>
+                        <ns2:ListPrice>
+                            <ns2:Amount>279.00</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>Energy Sistem</ns2:Manufacturer>
+                        <ns2:MediaType>MP3</ns2:MediaType>
+                        <ns2:MediaType>MPEG</ns2:MediaType>
+                        <ns2:Model>422593</ns2:Model>
+                        <ns2:NumberOfItems>1</ns2:NumberOfItems>
+                        <ns2:OperatingSystem>Android</ns2:OperatingSystem>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">1.97</ns2:Height>
+                            <ns2:Length Units="inches">7.24</ns2:Length>
+                            <ns2:Width Units="inches">3.62</ns2:Width>
+                            <ns2:Weight Units="pounds">0.88</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>422593</ns2:PartNumber>
+                        <ns2:Platform>Android</ns2:Platform>
+                        <ns2:ProcessorCount>8</ns2:ProcessorCount>
+                        <ns2:ProductGroup>CE</ns2:ProductGroup>
+                        <ns2:ProductTypeName>PHONE</ns2:ProductTypeName>
+                        <ns2:Publisher>Energy Sistem</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41RuqSlIuYL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Energy Sistem</ns2:Studio>
+                        <ns2:SystemMemorySize Units="GB">2</ns2:SystemMemorySize>
+                        <ns2:Title>Energy Phone Pro Qi - Smartphone libre de 5" (Bluetooth, Octa Core, 32 GB, 2 x SIM,
+                            Qi, GPS, NFC y MHL)
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B01AK1CYNE</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ce_display_on_website</ProductCategoryId>
+                        <Rank>4155</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>934197031</ProductCategoryId>
+                        <Rank>255</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B00TX5LO2Q</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Electrónica</ns2:Binding>
+                        <ns2:Brand>Microsoft</ns2:Brand>
+                        <ns2:Color>Negro</ns2:Color>
+                        <ns2:CPUManufacturer>Qualcomm Snapdragon</ns2:CPUManufacturer>
+                        <ns2:CPUSpeed Units="GHz">1.2</ns2:CPUSpeed>
+                        <ns2:DisplaySize Units="inches">5</ns2:DisplaySize>
+                        <ns2:Feature>Pantalla LCD de 5 pulgadas con protección CGG3 (Corning Gorilla Glass 3)
+                        </ns2:Feature>
+                        <ns2:Feature>Procesador Quad-Core a 1.2 GHz con sistema operativo Microsoft Windows Phone 8.1
+                        </ns2:Feature>
+                        <ns2:Feature>Cámara de 8 megapíxeles con grabación de video en 1080p</ns2:Feature>
+                        <ns2:Feature>Batería de Li-Ion con una capacidad de 2500 mAh</ns2:Feature>
+                        <ns2:Feature>Capacidad de la tarjeta SIM: SIM doble</ns2:Feature>
+                        <ns2:Feature>Capacidad de la tarjeta SIM: SIM doble</ns2:Feature>
+                        <ns2:HardDiskSize Units="GB">8</ns2:HardDiskSize>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">5.56</ns2:Height>
+                            <ns2:Length Units="inches">2.84</ns2:Length>
+                            <ns2:Width Units="inches">0.35</ns2:Width>
+                            <ns2:Weight Units="pounds">0.32</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:Label>Microsoft</ns2:Label>
+                        <ns2:ListPrice>
+                            <ns2:Amount>169.00</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>Microsoft</ns2:Manufacturer>
+                        <ns2:MediaType>H.263, H.264, MPEG4, VC-1</ns2:MediaType>
+                        <ns2:MediaType>H.263, H.264, MPEG4</ns2:MediaType>
+                        <ns2:Model>A00024286</ns2:Model>
+                        <ns2:OperatingSystem>Windows</ns2:OperatingSystem>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">1.26</ns2:Height>
+                            <ns2:Length Units="inches">6.30</ns2:Length>
+                            <ns2:Width Units="inches">5.91</ns2:Width>
+                            <ns2:Weight Units="pounds">0.49</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>A00024286</ns2:PartNumber>
+                        <ns2:Platform>Windows</ns2:Platform>
+                        <ns2:ProcessorCount>4</ns2:ProcessorCount>
+                        <ns2:ProductGroup>CE</ns2:ProductGroup>
+                        <ns2:ProductTypeName>PHONE</ns2:ProductTypeName>
+                        <ns2:Publisher>Microsoft</ns2:Publisher>
+                        <ns2:Size>8 GB</ns2:Size>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/51xwaFieGpL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Microsoft</ns2:Studio>
+                        <ns2:SystemMemorySize Units="MB">1024</ns2:SystemMemorySize>
+                        <ns2:Title>Microsoft Lumia 640 - Smartphone libre Windows Phone (pantalla 5", cámara 13 Mp, 8
+                            GB, Quad-Core 1.2 GHz, 1 GB RAM), negro
+                        </ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships>
+                    <VariationParent>
+                        <Identifiers>
+                            <MarketplaceASIN>
+                                <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                                <ASIN>B00U6609ZO</ASIN>
+                            </MarketplaceASIN>
+                        </Identifiers>
+                    </VariationParent>
+                </Relationships>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ce_display_on_website</ProductCategoryId>
+                        <Rank>2092</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>934197031</ProductCategoryId>
+                        <Rank>152</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B019FIJXRI</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:AspectRatio>16:9</ns2:AspectRatio>
+                        <ns2:Binding>Electrónica</ns2:Binding>
+                        <ns2:Brand>Energy Sistem</ns2:Brand>
+                        <ns2:Color>Negro</ns2:Color>
+                        <ns2:CPUManufacturer>ARM</ns2:CPUManufacturer>
+                        <ns2:CPUSpeed Units="GHz">1.3</ns2:CPUSpeed>
+                        <ns2:DisplaySize Units="inches">4</ns2:DisplaySize>
+                        <ns2:Feature>Conserva tu smartphone como el primer día gracias al Protection Kit incluido:
+                            carcasa y protector de pantalla
+                        </ns2:Feature>
+                        <ns2:Feature>Doble cámara: una frontal y otra trasera de 5 Mpx autofocus para videoconferencias,
+                            fotografías y vídeos
+                        </ns2:Feature>
+                        <ns2:Feature>Con tecnología IPS para disfrutar de su pantalla 4" desde cualquier ángulo de
+                            visión
+                        </ns2:Feature>
+                        <ns2:Feature>4GB de memoria interna (ampliable hasta 128 GB) que permiten almacenar hasta 16
+                            horas de vídeo o 2.000 canciones
+                        </ns2:Feature>
+                        <ns2:Feature>Función GPS vía satélite para la navegación más precisa y fiable</ns2:Feature>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">4.91</ns2:Height>
+                            <ns2:Length Units="inches">2.62</ns2:Length>
+                            <ns2:Width Units="inches">0.39</ns2:Width>
+                            <ns2:Weight Units="pounds">0.26</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:IsAutographed>false</ns2:IsAutographed>
+                        <ns2:IsMemorabilia>false</ns2:IsMemorabilia>
+                        <ns2:Label>Energy Sistem</ns2:Label>
+                        <ns2:Languages>
+                            <ns2:Language>
+                                <ns2:Name>castillian</ns2:Name>
+                                <ns2:Type>Manual</ns2:Type>
+                            </ns2:Language>
+                        </ns2:Languages>
+                        <ns2:ListPrice>
+                            <ns2:Amount>69.90</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:ListPrice>
+                        <ns2:Manufacturer>Energy Sistem</ns2:Manufacturer>
+                        <ns2:MediaType>MP3</ns2:MediaType>
+                        <ns2:MediaType>MP4</ns2:MediaType>
+                        <ns2:MediaType>MPEG</ns2:MediaType>
+                        <ns2:MediaType>JPEG</ns2:MediaType>
+                        <ns2:Model>424351</ns2:Model>
+                        <ns2:OperatingSystem>Android 5.1 Lollipop</ns2:OperatingSystem>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">2.36</ns2:Height>
+                            <ns2:Length Units="inches">5.98</ns2:Length>
+                            <ns2:Width Units="inches">3.43</ns2:Width>
+                            <ns2:Weight Units="pounds">0.79</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>424351</ns2:PartNumber>
+                        <ns2:ProcessorCount>4</ns2:ProcessorCount>
+                        <ns2:ProductGroup>CE</ns2:ProductGroup>
+                        <ns2:ProductTypeName>PHONE</ns2:ProductTypeName>
+                        <ns2:Publisher>Energy Sistem</ns2:Publisher>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/41Q%2BMs7eBML._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">75</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Studio>Energy Sistem</ns2:Studio>
+                        <ns2:Title>Energy Sistem Phone Neo Lite - Smartphone de 4" (IPS, ARM Cortex A7 1.3 GHz, 1 GB,
+                            Dual SIM, carcasa y protector incluidos, Android 5.1) color negro
+                        </ns2:Title>
+                        <ns2:WEEETaxValue>
+                            <ns2:Amount>0.00</ns2:Amount>
+                            <ns2:CurrencyCode>EUR</ns2:CurrencyCode>
+                        </ns2:WEEETaxValue>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>ce_display_on_website</ProductCategoryId>
+                        <Rank>13829</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>934197031</ProductCategoryId>
+                        <Rank>604</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+            <Product>
+                <Identifiers>
+                    <MarketplaceASIN>
+                        <MarketplaceId>A1RKKUPIHCS9HS</MarketplaceId>
+                        <ASIN>B002UJCYI0</ASIN>
+                    </MarketplaceASIN>
+                </Identifiers>
+                <AttributeSets>
+                    <ns2:ItemAttributes xml:lang="es-ES">
+                        <ns2:Binding>Juguete</ns2:Binding>
+                        <ns2:Brand>Whisper Phone Para niños (solo)</ns2:Brand>
+                        <ns2:ItemDimensions>
+                            <ns2:Height Units="inches">2.00</ns2:Height>
+                            <ns2:Length Units="inches">7.00</ns2:Length>
+                            <ns2:Width Units="inches">6.50</ns2:Width>
+                            <ns2:Weight Units="pounds">0.09</ns2:Weight>
+                        </ns2:ItemDimensions>
+                        <ns2:ManufacturerMinimumAge Units="months">108</ns2:ManufacturerMinimumAge>
+                        <ns2:Model>HB-WPS1</ns2:Model>
+                        <ns2:NumberOfItems>2</ns2:NumberOfItems>
+                        <ns2:PackageDimensions>
+                            <ns2:Height Units="inches">2.30</ns2:Height>
+                            <ns2:Length Units="inches">9.00</ns2:Length>
+                            <ns2:Width Units="inches">5.00</ns2:Width>
+                            <ns2:Weight Units="pounds">0.10</ns2:Weight>
+                        </ns2:PackageDimensions>
+                        <ns2:PackageQuantity>1</ns2:PackageQuantity>
+                        <ns2:PartNumber>WPS-1</ns2:PartNumber>
+                        <ns2:ProductGroup>Juguete</ns2:ProductGroup>
+                        <ns2:ProductTypeName>TOYS_AND_GAMES</ns2:ProductTypeName>
+                        <ns2:SmallImage>
+                            <ns2:URL>http://ecx.images-amazon.com/images/I/31yuOdmeHLL._SL75_.jpg</ns2:URL>
+                            <ns2:Height Units="pixels">50</ns2:Height>
+                            <ns2:Width Units="pixels">75</ns2:Width>
+                        </ns2:SmallImage>
+                        <ns2:Title>Whisper Phone Para niños (solo)</ns2:Title>
+                    </ns2:ItemAttributes>
+                </AttributeSets>
+                <Relationships/>
+                <SalesRankings>
+                    <SalesRank>
+                        <ProductCategoryId>toy_display_on_website</ProductCategoryId>
+                        <Rank>14962</Rank>
+                    </SalesRank>
+                    <SalesRank>
+                        <ProductCategoryId>1641991031</ProductCategoryId>
+                        <Rank>35</Rank>
+                    </SalesRank>
+                </SalesRankings>
+            </Product>
+        </Products>
+    </ListMatchingProductsResult>
+    <ResponseMetadata>
+        <RequestId>7e3418b0-417a-4495-8d96-467fe2cbf7ad</RequestId>
+    </ResponseMetadata>
+</ListMatchingProductsResponse>

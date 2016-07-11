@@ -1,0 +1,53 @@
+tr.selected {
+    background-color: #adbbd6;
+}
+
+tr:hover{
+    background-color: #1F88BE !important;
+}
+
+.pusher .full {
+    display: flex;
+    /*height: 100vh;*/
+}
+
+#sidebar_menu {
+    height: 100%;
+}
+
+.toc {
+    height: 100vh;
+    position: static;
+    z-index: 1;
+    background-color: #1b1c1d;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+article {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 0px;
+}
+
+#sidebar_menu, .toc {
+    width: 250px;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .toc {
+        display: none;
+    }
+
+    #mobile_menu {
+        display: block !important;
+    }
+}

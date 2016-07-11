@@ -1,0 +1,52 @@
+body {
+    background: #e1c192 url("../images/beach.jpg") !important;
+    background-repeat: no-repeat;
+}
+
+.external_links {
+    width: 49%;
+    height: 38px;
+    float: left;
+    position: relative;
+}
+
+.login_with {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: capitalize;
+    float: left;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.zocial {
+    margin: 0 4px;
+    font-size: 13px;
+}
+
+#messages {
+    text-align: center;
+    background-color: #FF9A9A;
+    padding: 1em;
+}
+
+#messages.success {
+    background-color: #CFFFC4;
+    font-size: larger;
+}
+
+div.cancel_login > a {
+    padding: 9px 8px 0;
+    text-align: center;
+    background-color: gainsboro;
+    color: #888888;
+    margin-left: 1%;
+    width: 24%;
+    height: 35px;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,73 @@
+{% extends "backoffice.html" %}
+
+{% block extra_script %}
+    <script>
+        $(document).ready(function () {
+            $('#ebay_listing').DataTable();
+        });
+    </script>
+{% endblock %}
+
+
+{% block content %}
+    <div class="ui basic segment" id="dashboard">
+        <h3 class="ui header">
+            Ebay listing
+        </h3>
+    <div class="ui divider"></div>
+        <table id="ebay_listing" class="ui teal selectable celled table" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>Image</th>
+                <th>ASIN</th>
+                <th>Titile</th>
+                <th>Amazon Price</th>
+                <th>Ebay Price</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th></th>
+                <th colspan="5">
+                    <div class="ui disabled teal right floated small labeled icon button" id="">
+                        <i class="send icon"></i> Action
+                    </div>
+                    <!-- <div class="ui small  button">
+                        Approve
+                    </div>
+                    <div class="ui small  disabled button">
+                        Approve All
+                    </div>  -->
+                </th>
+            </tr>
+            </tfoot>
+            <tbody>
+
+            {% for item in ebay_listing %}
+                {% set class = "positive" %}
+                {% if item.status == 0 %}
+                    {% set class = "warning" %}
+                {% endif %}
+                <tr class="{{ class }}">
+                    <td>
+                        <img src="{{ item.image_url }}">
+                    </td>
+                    <td>{{ item.asin }}</td>
+                    <td> {{ item.title }}</td>
+                    <td>{{ item.amazon_price }}</td>
+                    <td>{{ item.ebay_price }}</td>
+                    <td>
+                        {% if item.status == 1 %}
+                            <i class="icon checkmark"></i> Approved
+                        {% else %}
+                            <i class="icon close"></i> Error
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
