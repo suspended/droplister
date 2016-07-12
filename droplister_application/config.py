@@ -47,7 +47,7 @@ class ProductionConfig(BaseConfig):
 
     """EBAY configuration parameters"""
     EBAY_DOMAIN = 'api.ebay.com'
-    EBAY_RUNAME = "Carlos_Franciso-CarlosFr-dropli-hcoxi"
+    EBAY_RUNAME = "Carlos_Franciso-CarlosFr-dropli-bdmzgowxo"
     EBAY_SIGNIN_URL = "signin.ebay.com"
 
 
