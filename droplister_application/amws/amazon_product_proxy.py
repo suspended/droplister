@@ -47,5 +47,5 @@ class AmazonProductProxy:
         content = list()
         with open(path_to_file_with_aws) as credentials:
             for line in credentials:
-                content.append(line)
+                content.append(str(line).strip())
         return content
