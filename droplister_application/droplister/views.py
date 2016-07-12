@@ -13,7 +13,7 @@ from droplister_application.authentication.models import User
 from droplister_application.droplister.forms import WizardForm
 from droplister_application.droplister.utils import create_or_update_droplister_order_from_ebay_order, \
     prepare_product_for_ebay, sqlalchemyobject_to_json
-from droplister_application.ebayws.trading_proplister_proxy import EbayTradingDroplisterProxy
+from droplister_application.ebayws.trading_droplister_proxy import EbayTradingDroplisterProxy
 
 ebay_trading_proxy = EbayTradingDroplisterProxy()
 amazon_product_proxy = AmazonProductProxy()

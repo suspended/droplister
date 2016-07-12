@@ -32,20 +32,20 @@ class EbayTradingDroplisterProxy:
 
     def get_session_id(self):
         """Return a Session id"""
-        api = self._get_connection(app.config['EBAY_DEFAULT_TOKEN'])
+        api = self._get_connection()
         response = api.execute('GetSessionID', {"RuName": app.config['EBAY_RUNAME']})
         return response.reply.SessionID
 
     def get_token_x_session_id(self, sessionID):
         """Return a tuple with the token and the expiration date respectively"""
-        api = self._get_connection(app.config['EBAY_DEFAULT_TOKEN'])
+        api = self._get_connection()
         response = api.execute('FetchToken', {"SessionID": sessionID})
         tuple = (response.reply.eBayAuthToken, response.reply.HardExpirationTime)
         LOGGER.info("Retrieving Token with result Token: %s - ExpDate: %s" % tuple)
         return tuple
 
     def get_user_detail(self, user_token):
-        if user_token == app.config['EBAY_DEFAULT_TOKEN']:
+        if not user_token:
             LOGGER.error("Can't get user details with the default token")
             raise Exception("Can't get user details with the default token")
         try:
