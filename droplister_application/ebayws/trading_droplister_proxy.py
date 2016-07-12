@@ -1,5 +1,4 @@
 import os
-
 from ebaysdk.exception import ConnectionError
 from droplister_application import app
 from ebaysdk.trading import Connection as Trading
