@@ -1,6 +1,7 @@
 from ebaysdk.exception import ConnectionError
 from ebaysdk.trading import Connection as Trading
-from droplister_application.tests.ebay.utils import response_detail, write_response_to_file
+
+from droplister_application.ebayws.utils import response_detail, write_response_to_file
 
 appid = "CarlosFr-droplist-SBX-fab9522e2-c159ef37"
 
@@ -38,7 +39,7 @@ def get_user_detail(token):
 def getcategories():
     action = 'GetCategories'
     api = connection()
-    response = api.execute(action, {})
+    response = api.execute(action, {'CategorySiteID': 186, 'DetailLevel': 'ReturnAll'})
     response_detail(response)
     write_response_to_file(response, action)
 
@@ -192,7 +193,16 @@ def GetOrders(token):
     response_detail(response)
     write_response_to_file(response, 'GetOrders')
 
+
+def GetStore(token):
+    api = connection(user_token=token)
+    response = api.execute('GetStore', {'CategoryStructureOnly': 'True'})
+    response_detail(response)
+    write_response_to_file(response, 'GetStore')
+
+
 if __name__ == '__main__':
+    print "Running...."
     # getcategories()
     # get_user_detail(testuser_lion_token)
     # getsuggestedcategories()
@@ -200,4 +210,5 @@ if __name__ == '__main__':
     # add_item()
     # test_user_interactivity()
     # GetMyeBaySelling(testuser_lion_token)
-    GetOrders(testuser_lion_token)
+    # GetOrders(testuser_lion_token)
+    GetStore(testuser_lion_token)

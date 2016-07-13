@@ -14,11 +14,10 @@ from droplister_application.droplister.forms import WizardForm
 from droplister_application.droplister.utils import create_or_update_droplister_order_from_ebay_order, \
     prepare_product_for_ebay, sqlalchemyobject_to_json
 from droplister_application.ebayws.trading_droplister_proxy import EbayTradingDroplisterProxy
-
-ebay_trading_proxy = EbayTradingDroplisterProxy()
-amazon_product_proxy = AmazonProductProxy()
-
 from droplister_application.droplister.models import *
+
+ebay_trading_proxy = EbayTradingDroplisterProxy(use_proxy=True)
+amazon_product_proxy = AmazonProductProxy()
 
 main_blue_print = Blueprint("DL_BP", __name__, static_folder='dl_static', template_folder='templates')
 
@@ -204,7 +203,15 @@ def order_detail():
     return render_template("fragments/ebay_order_detail.html", order=ebay_order)
 
 
+@main_blue_print.route("/ebay_store_details")
+@login_required
+def get_store_details():
+    account = Account.query.filter(Account.user == current_user).first_or_404()
+    response = ebay_trading_proxy.get_store(user_token=account.token)
+    return render_template("store_details.html")
+
 @main_blue_print.route("/scrapper")
 def scrapper_search():
     url_to_scrapping = "http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=zhoe&page=2"
     return render_template("scrapper.html")
+

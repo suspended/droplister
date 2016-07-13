@@ -4,13 +4,14 @@ from droplister_application import app
 from ebaysdk.trading import Connection as Trading
 import logging
 from droplister_application.config import BaseConfig
+from droplister_application.ebayws.utils import response_detail, write_response_to_file
 
 LOGGER = logging.getLogger(__name__)
 
 
 class EbayTradingDroplisterProxy:
-    def __init__(self):
-        pass
+    def __init__(self, use_proxy=False):
+        self.use_proxy = use_proxy
 
     def _get_connection(self, token=None):
         self.profile = app.config['PROFILE']
@@ -19,10 +20,11 @@ class EbayTradingDroplisterProxy:
         params_dict['domain'] = app.config['EBAY_DOMAIN']
         if token:
             params_dict['token'] = token
-        if self.profile == BaseConfig.DEVELOPMENT_PROFILE:
-            params_dict['config_file'] = os.path.join(self.root, 'ebay_dev.yaml')
+        if self.use_proxy:
             params_dict['proxy_host'] = "127.0.0.1"
             params_dict['proxy_port'] = 3128
+        if self.profile == BaseConfig.DEVELOPMENT_PROFILE:
+            params_dict['config_file'] = os.path.join(self.root, 'ebay_dev.yaml')
         else:
             params_dict['config_file'] = os.path.join(self.root, 'ebay_prod.yaml')
 
@@ -115,3 +117,9 @@ class EbayTradingDroplisterProxy:
                           })
         # OrderArray is a dict who list is retrieved by Order key, who return a list
         return response.reply.OrderArray.Order[0]
+
+    def get_store(self, user_token):
+        api = self._get_connection(token=user_token)
+        response = api.execute('GetStore', {'CategoryStructureOnly': 'True'})
+        response_detail(response)
+        write_response_to_file(response, 'GetStore')
