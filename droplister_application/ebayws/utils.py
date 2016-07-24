@@ -22,6 +22,7 @@
 #     api = connection()
 #     response = api.execute('GetSessionID', {"RuName": getRuname()})
 #     return response.reply.SessionID
+import itertools
 
 
 def response_detail(response, echo=True):
@@ -37,3 +38,121 @@ def write_response_to_file(response, filename, ext=".text"):
     file.write(response_detail(response, echo=False))
     file.flush()
     file.close()
+
+
+def build_fixed_price_item(currency, description, paypal_email, shipping_service_cost, site_code, fixed_price, title,
+                           category_id, store_category, small_picture_url):
+    myitem = {
+        "Item": {
+            "Title": title,
+            "Description": description,
+            "PrimaryCategory": {"CategoryID": category_id},
+            "StartPrice": str(fixed_price),
+            "CategoryMappingAllowed": "true",
+            "Country": site_code,
+            "ConditionID": "3000",
+            "Currency": currency,
+            "DispatchTimeMax": "3",
+            "ListingDuration": "Days_7",
+            "ListingType": "Chinese",
+            "PaymentMethods": "PayPal",
+            # "PayPalEmailAddress": "allforyouint@hotmail.com",
+            "PayPalEmailAddress": paypal_email,
+            "PictureDetails": {
+                "PictureURL": small_picture_url},
+            "PostalCode": "95125",
+            "Quantity": "7",
+            "ReturnPolicy": {
+                "ReturnsAcceptedOption": "ReturnsAccepted",
+                "RefundOption": "MoneyBack",
+                "ReturnsWithinOption": "Days_30",
+                "Description": "If you are not satisfied, return the book for refund.",
+                "ShippingCostPaidByOption": "Buyer"
+            },
+            "ShippingDetails": {
+                "ShippingType": "Flat",
+                "ShippingServiceOptions": {
+                    "ShippingServicePriority": "1",
+                    "ShippingService": "USPSMedia",
+                    "ShippingServiceCost": str(shipping_service_cost)
+                }
+            },
+            "Storefront": {
+                "StoreCategoryID": store_category
+            },
+            "Site": site_code
+        }
+    }
+    return myitem
+
+
+def build_default_item(currency, description, paypal_email, shipping_service_cost, site_code, original_price,
+                       buy_price, title, categoryId, store_category, small_picture_url, upc, ean):
+    product_listing_detail_dict = dict()
+    if upc:
+        product_listing_detail_dict = {
+            "UPC": int(upc),
+            "IncludePrefilledItemInformation": "true",
+            "IncludeStockPhotoURL": "true"
+        }
+    else:
+        product_listing_detail_dict = {
+            "EAN": str(ean),
+        }
+    myitem = {
+        "Item": {
+            "Title": title,
+            "Description": description,
+            "PrimaryCategory": {"CategoryID": categoryId},
+            "StartPrice": str(original_price),
+            "CategoryMappingAllowed": "true",
+            "Country": site_code,
+            "ConditionID": "3000",
+            "Currency": currency,
+            "DispatchTimeMax": "5",
+            "ListingDuration": "Days_7",
+            "ListingType": "Chinese",
+            "PaymentMethods": "PayPal",
+            # "PayPalEmailAddress": "allforyouint@hotmail.com",
+            "PayPalEmailAddress": paypal_email,
+            "PictureDetails": {
+                "PictureURL": small_picture_url},
+            "PostalCode": "95125",
+            "Quantity": 1,  # in auction can  be sold only 1 item
+            "ReturnPolicy": {
+                "ReturnsAcceptedOption": "ReturnsAccepted",
+                "RefundOption": "MoneyBack",
+                "ReturnsWithinOption": "Days_30",
+                "Description": "If you are not satisfied, return the book for refund.",
+                "ShippingCostPaidByOption": "Buyer"
+            },
+            "ListingDetails": {
+                "BestOfferAutoAcceptPrice": float(buy_price),
+                "MinimumBestOfferPrice": float(buy_price)
+            },
+            "ProductListingDetails": product_listing_detail_dict,
+            "ShippingDetails": {
+                # "ShippingType": "Calculated",
+                "ShippingServiceOptions": {
+                    "ShippingServicePriority": "1",
+                    "ShippingService": "USPSMedia",
+                    "ShippingServiceCost": 0,
+                }
+            },
+            "BuyItNowPrice": float(buy_price),
+            "Storefront": {
+                "StoreCategoryID": store_category
+            },
+            "Site": site_code
+        }
+    }
+    return myitem
+
+
+def extract_categories(category_list):
+    ref_list = list()
+    for cat in category_list:
+        ref_list.append({'name': cat.Name, 'id': cat.CategoryID})
+        if hasattr(cat, 'ChildCategory'):
+            ref_list = ref_list + extract_categories(cat.ChildCategory)
+    return ref_list

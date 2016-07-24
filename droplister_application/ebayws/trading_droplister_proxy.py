@@ -4,7 +4,8 @@ from droplister_application import app
 from ebaysdk.trading import Connection as Trading
 import logging
 from droplister_application.config import BaseConfig
-from droplister_application.ebayws.utils import response_detail, write_response_to_file
+from droplister_application.ebayws.utils import response_detail, write_response_to_file, build_default_item, \
+    build_fixed_price_item
 
 LOGGER = logging.getLogger(__name__)
 
@@ -58,46 +59,20 @@ class EbayTradingDroplisterProxy:
             LOGGER.error(e.message)
             return None
 
-    def add_item(self, user_token, title, description, start_price, site_code, currency, paypal_email,
-                 shipping_service_cost):
-        myitem = {
-            "Item": {
-                "Title": title,
-                "Description": description,
-                "PrimaryCategory": {"CategoryID": "377"},
-                "StartPrice": str(start_price),
-                "CategoryMappingAllowed": "true",
-                "Country": site_code,
-                "ConditionID": "3000",
-                "Currency": currency,
-                "DispatchTimeMax": "3",
-                "ListingDuration": "Days_7",
-                "ListingType": "Chinese",
-                "PaymentMethods": "PayPal",
-                # "PayPalEmailAddress": "allforyouint@hotmail.com",
-                "PayPalEmailAddress": paypal_email,
-                "PictureDetails": {
-                    "PictureURL": "http://i1.sandbox.ebayimg.com/03/i/00/30/07/20_1.JPG?set_id=8800005007"},
-                "PostalCode": "95125",
-                "Quantity": "1",
-                "ReturnPolicy": {
-                    "ReturnsAcceptedOption": "ReturnsAccepted",
-                    "RefundOption": "MoneyBack",
-                    "ReturnsWithinOption": "Days_30",
-                    "Description": "If you are not satisfied, return the book for refund.",
-                    "ShippingCostPaidByOption": "Buyer"
-                },
-                "ShippingDetails": {
-                    "ShippingType": "Flat",
-                    "ShippingServiceOptions": {
-                        "ShippingServicePriority": "1",
-                        "ShippingService": "USPSMedia",
-                        "ShippingServiceCost": str(shipping_service_cost)
-                    }
-                },
-                "Site": site_code
-            }
-        }
+    def add_fixed_price_item(self, user_token, title, description, fixed_price, site_code, currency, paypal_email,
+                 shipping_service_cost, categoryId, store_category, small_picture_url):
+        myitem = build_fixed_price_item(currency, description, paypal_email, shipping_service_cost, site_code,
+                                    fixed_price, title, categoryId, store_category, small_picture_url)
+        api = self._get_connection(user_token)
+        response = api.execute('VerifyAddFixedPriceItem', myitem)
+        print("%s" % api.response.content)
+        return response
+
+    def add_default_item(self, user_token, title, description, original_price, buy_price, site_code, currency, paypal_email,
+                         shipping_service_cost, category_id, store_category, small_picture_url, upc, ean):
+        myitem = build_default_item(currency, description, paypal_email, shipping_service_cost, site_code,
+                                    original_price, buy_price, title, category_id, store_category, small_picture_url,
+                                    upc, ean)
         api = self._get_connection(user_token)
         response = api.execute('VerifyAddItem', myitem)
         print("%s" % api.response.content)
@@ -121,5 +96,6 @@ class EbayTradingDroplisterProxy:
     def get_store(self, user_token):
         api = self._get_connection(token=user_token)
         response = api.execute('GetStore', {'CategoryStructureOnly': 'True'})
-        response_detail(response)
-        write_response_to_file(response, 'GetStore')
+        # response_detail(response)
+        # write_response_to_file(response, 'GetStore')
+        return response

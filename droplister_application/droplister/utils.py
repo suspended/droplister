@@ -23,22 +23,28 @@ def validate_email_already_taken(form, field):
         raise ValidationError('The email that you provided is already taken')
 
 
-def prepare_product_for_ebay(product, ebay_trading):
+def prepare_product_for_ebay(product, ebay_trading, store_category):
     asin = product.asin
     # the title can't have more than 80 characters
-    title = str(product.title)[:80]
+    title = product.title[:80].encode('utf-8')
     image_url = product.small_image_url
     # the prop price_and_currency return a tuple with price float and currency
-    description = "Description test"
+    description = title
+    if product.features:
+        description = '.'.join(product.features).encode('utf-8')
     site_code = 'US'
     account_user = Account.query.filter(Account.user == current_user).first()
     price = float(product.price_and_currency[0])
     amazon_offer_id = product.offer_id.text
-    ebay_price = float(price) + 10.0
-    ebay_response = ebay_trading.add_item(account_user.token, title, description, ebay_price, site_code, 'USD',
-                                          account_user.paypal_email, 2.50)
-    if ebay_response.reply.Ack != "Success":
-    # if ebay_response.reply.Ack == "Success":
+    ebay_price = float(price)
+    buy_price = float(price) + (float(price) * 0.31)
+    ebay_response = ebay_trading.add_default_item(account_user.token, title, description, ebay_price, buy_price,
+                                                  site_code, 'USD', account_user.paypal_email,
+                                                  shipping_service_cost=2.50, category_id=1244,
+                                                  store_category=store_category, small_picture_url=image_url,
+                                                  upc=product.upc, ean=product.ean)
+    if ebay_response.reply.Ack == "Success":
+        # if ebay_response.reply.Ack == "Success":
         ebay_item_id = ebay_response.reply.get('ItemID')
         status = DroplisterItem.STATUS_LISTED
         drop_lister_item = DroplisterItem(asin=asin, title=title, description=description, amazon_price=price,
@@ -91,6 +97,5 @@ def sqlalchemyobject_to_json(object):
     from sqlalchemy.orm import class_mapper
     import sqlalchemy
 
-
     return [prop.key for prop in class_mapper(object).iterate_properties
-        if isinstance(prop, sqlalchemy.orm.ColumnProperty)]
+            if isinstance(prop, sqlalchemy.orm.ColumnProperty)]

@@ -1,30 +1,31 @@
 import os
 import xmltodict
-
 from amazon.api import AmazonAPI as ProductionAmazonAPI
-
 from droplister_application import app
 from droplister_application.amazon_api_client.my_simpleapiproduct.my_simple_product_api import AmazonAPI
 from droplister_application.config import BaseConfig
 
 
 class AmazonProductProxy:
-
-    def __init__(self):
+    def __init__(self, force_own_api=False):
         self.root = os.path.join(app.config['APP_ROOT'], "amws")
         self.profile = app.config['PROFILE']
         aws_list_cred = self.get_aws_cred_from_file()
-        if self.profile == BaseConfig.DEVELOPMENT_PROFILE:
+        if force_own_api:
             self.amazon = AmazonAPI(*aws_list_cred, Region='ES')
         else:
-            self.amazon = ProductionAmazonAPI(*aws_list_cred, Region='ES')
+            if self.profile == BaseConfig.DEVELOPMENT_PROFILE:
+                self.amazon = AmazonAPI(*aws_list_cred, Region='ES')
+            else:
+                self.amazon = ProductionAmazonAPI(*aws_list_cred, Region='ES')
 
     def search_products(self, query):
-        product_res = self.extract_products(self.amazon.search(Keywords=query, SearchIndex='All'))
+        product_res = self.extract_products(
+            self.amazon.search(Keywords=query, SearchIndex='All', Availability="Available"))
         return product_res
 
-    def search_by_asin(self, asin_string_list):
-        return self.extract_products(self.amazon.lookup(ItemId=",".join(asin_string_list)))
+    def search_by_asin(self, asin_list):
+        return self.extract_products(self.amazon.lookup(ItemId=",".join(asin_list)))
 
     def create_cart(self, offer_id, quantity=1):
         item_dict = {'offer_id': offer_id, 'quantity': quantity}

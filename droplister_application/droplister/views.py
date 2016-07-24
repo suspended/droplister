@@ -15,9 +15,10 @@ from droplister_application.droplister.utils import create_or_update_droplister_
     prepare_product_for_ebay, sqlalchemyobject_to_json
 from droplister_application.ebayws.trading_droplister_proxy import EbayTradingDroplisterProxy
 from droplister_application.droplister.models import *
+from droplister_application.ebayws.utils import extract_categories
 
 ebay_trading_proxy = EbayTradingDroplisterProxy(use_proxy=True)
-amazon_product_proxy = AmazonProductProxy()
+amazon_product_proxy = AmazonProductProxy(force_own_api=True)
 
 main_blue_print = Blueprint("DL_BP", __name__, static_folder='dl_static', template_folder='templates')
 
@@ -84,7 +85,7 @@ def receive_user_token():
 @main_blue_print.route("/backoffice")
 @login_required
 def backoffice():
-    return render_template("backoffice.html")
+    return render_template("search.html")
 
 
 @main_blue_print.route("/amazon_search")
@@ -96,12 +97,13 @@ def amazon_search():
     amazon_products = amazon_product_proxy.search_products(query=query)
     product_json = list()
     for p in amazon_products:
-        asin = p.asin
-        image = "<span style='display: block; text-align: center;'><img with='40' src='%s' /></span>" % p.small_image_url
-        title = p.title
-        price = "%s %s" % p.price_and_currency
-        list_attr = [image, asin, title, price]
-        product_json.append(list_attr)
+        if int(p.parsed_response.Offers.TotalOffers.text) > 0:
+            asin = p.asin
+            image = "<span style='display: block; text-align: center;'><img with='40' src='%s' /></span>" % p.small_image_url
+            title = p.title
+            price = "%s %s" % p.price_and_currency
+            list_attr = [image, asin, title, price]
+            product_json.append(list_attr)
 
     response = {'data': product_json}
     return jsonify(response)
@@ -110,22 +112,27 @@ def amazon_search():
 @main_blue_print.route("/sell_on_bay", methods=['POST'])
 @login_required
 def sell_on_bay():
-    json_array = request.data
-    asim_arrays = json.loads(json_array)
-    if not asim_arrays:
+    asim_cat_dict_arrays = json.loads(request.data)
+    if not asim_cat_dict_arrays:
         abort(400)
-    if not asim_arrays.get('asim_array'):
-        abort(400)
-    amazon_products_dict = amazon_product_proxy.search_by_asin(asim_arrays.get('asim_array'))
+    asin_cat_as_dict = dict()
+    asin_list = list()
+    for elem in asim_cat_dict_arrays:
+        asin = elem['asin']
+        asin_list.append(asin)
+        asin_cat_as_dict[asin] = elem['category']
+    amazon_products_dict = amazon_product_proxy.search_by_asin(asin_list=asin_list)
     asin_listing = list()
     for p in amazon_products_dict:
-        drop_lister_item = prepare_product_for_ebay(product=p, ebay_trading=ebay_trading_proxy)
-        if drop_lister_item:
-            asin_listing.append({'asin': drop_lister_item.asin, 'status': True})
-        else:
-            asin_listing.append({'asin': drop_lister_item.asin, 'status': False})
+        if p.upc or p.ean:
+            drop_lister_item = prepare_product_for_ebay(product=p, ebay_trading=ebay_trading_proxy,
+                                                        store_category=asin_cat_as_dict[p.asin])
+            if drop_lister_item:
+                asin_listing.append({'asin': drop_lister_item.asin, 'status': True})
+            else:
+                asin_listing.append({'asin': drop_lister_item.asin, 'status': False})
 
-        db.session.add(drop_lister_item)
+            db.session.add(drop_lister_item)
     db.session.commit()
     return jsonify(asin_listing)
 
@@ -207,11 +214,14 @@ def order_detail():
 @login_required
 def get_store_details():
     account = Account.query.filter(Account.user == current_user).first_or_404()
-    response = ebay_trading_proxy.get_store(user_token=account.token)
+    ebay_response = ebay_trading_proxy.get_store(user_token=account.token)
+    if request.is_xhr:
+        categories_dict = {'categories': extract_categories(ebay_response.reply.Store.CustomCategories.CustomCategory)}
+        return jsonify(categories_dict)
     return render_template("store_details.html")
+
 
 @main_blue_print.route("/scrapper")
 def scrapper_search():
     url_to_scrapping = "http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=zhoe&page=2"
     return render_template("scrapper.html")
-

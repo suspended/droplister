@@ -17,6 +17,10 @@
 
     {% endblock %}
 
+    {% block extra_script %}
+
+    {% endblock %}
+
     {% block meta_script %}
 
         <script>
@@ -24,6 +28,7 @@
             amazon_search_url = url = "{{ url_for("DL_BP.amazon_search") }}";
             ebay_sell_url = "{{ url_for("DL_BP.sell_on_bay") }}";
             ebay_order_detail_url = "{{ url_for("DL_BP.order_detail") }}";
+            ebay_store_info = "{{ url_for("DL_BP.get_store_details") }}";
         </script>
 
         <script src="{{ url_for("DL_BP.static", filename="dataTables/datatables.js") }}"></script>
@@ -33,10 +38,6 @@
 
         <script src="{{ url_for("DL_BP.static", filename="js/backoffice/function.js") }}"></script>
 
-    {% endblock %}
-
-    {% block extra_script %}
-        <script src="{{ url_for("DL_BP.static", filename="js/backoffice/backoffice.js") }}"></script>
     {% endblock %}
 
 </head>
@@ -140,54 +141,7 @@
         </div>
         <div class="article">
             {% block content %}
-                <div class="ui basic segment">
-                    <h3 class="ui header">
-                        Search on Amazon
-                    </h3>
 
-                    <form class="ui form" id="amazon_search_form" action="{{ url_for("DL_BP.amazon_search") }}">
-                        <div class="ui error message"></div>
-                        <div class="ui action input">
-                            <input type="text" value="{{ query }}" name="query" id="query">
-                            <button class="ui teal right labeled icon button submit">
-                                <i class="search icon"></i>
-                                Search
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <div class="ui divider"></div>
-                <div class="ui basic segment" id="amazon_result">
-                    <h3 class="ui header">
-                        Search results
-                    </h3>
-                    <table id="example" class="ui teal selectable celled table" cellspacing="0" width="100%">
-                        <thead>
-                        <tr>
-                            <th>Image</th>
-                            <th>ASIN</th>
-                            <th>Titile</th>
-                            <th>Price</th>
-                        </tr>
-                        </thead>
-                        <tfoot>
-                        <tr>
-                            <th></th>
-                            <th colspan="3">
-                                <div class="ui disabled teal right floated small labeled icon button" id="sell_on_ebay">
-                                    <i class="send icon"></i> Sell on eBay
-                                </div>
-                                <!-- <div class="ui small  button">
-                                    Approve
-                                </div>
-                                <div class="ui small  disabled button">
-                                    Approve All
-                                </div>  -->
-                            </th>
-                        </tr>
-                        </tfoot>
-                    </table>
-                </div>
             {% endblock %}
         </div>
 

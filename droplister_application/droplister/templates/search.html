@@ -1,0 +1,56 @@
+{% extends "common/backoffice.html" %}
+
+{% block extra_script %}
+    <script src="{{ url_for("DL_BP.static", filename="js/backoffice/search.js") }}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="ui basic segment">
+        <h3 class="ui header">
+            Search on Amazon
+        </h3>
+
+        <form class="ui form" id="amazon_search_form" action="{{ url_for("DL_BP.amazon_search") }}">
+            <div class="ui error message"></div>
+            <div class="ui action input">
+                <input type="text" value="{{ query }}" name="query" id="query">
+                <button class="ui teal right labeled icon button submit">
+                    <i class="search icon"></i>
+                    Search
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="ui divider"></div>
+    <div class="ui basic segment" id="amazon_result">
+        <h3 class="ui header">
+            Search results
+        </h3>
+        <table id="example" class="ui teal selectable celled table" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>Image</th>
+                <th>ASIN</th>
+                <th>Titile</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th></th>
+                <th colspan="3">
+                    <div class="ui disabled teal right floated small labeled icon button" id="sell_on_ebay">
+                        <i class="send icon"></i> Sell on eBay
+                    </div>
+                    <!-- <div class="ui small  button">
+                        Approve
+                    </div>
+                    <div class="ui small  disabled button">
+                        Approve All
+                    </div>  -->
+                </th>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+{% endblock %}

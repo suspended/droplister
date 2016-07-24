@@ -1,15 +1,12 @@
 /**
  * Created by lion on 6/4/16.
  */
-send_items_to_ebay = function (asim_array) {
-    console.log("Sending " + asim_array)
-    var data = {
-        asim_array: asim_array
-    };
+send_items_to_ebay = function (elements_to_send_ebay) {
+    console.log("Sending " + elements_to_send_ebay)
     $.ajax({
         dataType: "json",
         url: ebay_sell_url,
-        data: JSON.stringify(data),
+        data: JSON.stringify(elements_to_send_ebay),
         type: 'POST',
         success: function (response) {
             console.log(response.data);
