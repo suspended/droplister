@@ -17,8 +17,8 @@ from droplister_application.ebayws.trading_droplister_proxy import EbayTradingDr
 from droplister_application.droplister.models import *
 from droplister_application.ebayws.utils import extract_categories
 
-ebay_trading_proxy = EbayTradingDroplisterProxy(use_proxy=True)
-amazon_product_proxy = AmazonProductProxy(force_own_api=True)
+ebay_trading_proxy = EbayTradingDroplisterProxy(use_proxy=False)
+amazon_product_proxy = AmazonProductProxy(force_own_api=False)
 
 main_blue_print = Blueprint("DL_BP", __name__, static_folder='dl_static', template_folder='templates')
 
