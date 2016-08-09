@@ -69,12 +69,12 @@ class EbayTradingDroplisterProxy:
         return response
 
     def add_default_item(self, user_token, title, description, original_price, buy_price, site_code, currency, paypal_email,
-                         shipping_service_cost, category_id, store_category, small_picture_url, upc, ean):
+                         shipping_service_cost, category_id, store_category, small_picture_url, upc, ean, brand, mpn):
         myitem = build_default_item(currency, description, paypal_email, shipping_service_cost, site_code,
                                     original_price, buy_price, title, category_id, store_category, small_picture_url,
-                                    upc, ean)
+                                    upc, ean, brand, mpn)
         api = self._get_connection(user_token)
-        response = api.execute('VerifyAddItem', myitem)
+        response = api.execute('AddFixedPriceItem', myitem)
         print("%s" % api.response.content)
         return response
 

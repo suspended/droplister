@@ -97,14 +97,17 @@ def amazon_search():
     amazon_products = amazon_product_proxy.search_products(query=query)
     product_json = list()
     for p in amazon_products:
-        if int(p.parsed_response.Offers.TotalOffers.text) > 0:
-            asin = p.asin
-            image = "<span style='display: block; text-align: center;'><img with='40' src='%s' /></span>" % p.small_image_url
-            title = p.title
-            price = "%s %s" % p.price_and_currency
-            list_attr = [image, asin, title, price]
-            product_json.append(list_attr)
-
+        try:
+            if p.parsed_response.Offers.TotalOffers and p.manufacturer and p.mpn:
+                if int(p.parsed_response.Offers.TotalOffers.text) > 0:
+                    asin = p.asin
+                    image = "<span style='display: block; text-align: center;'><img with='40' src='%s' /></span>" % p.small_image_url
+                    title = p.title
+                    price = "%s %s" % p.price_and_currency
+                    list_attr = [image, asin, title, price]
+                    product_json.append(list_attr)
+        except AttributeError, e:
+            print(e)
     response = {'data': product_json}
     return jsonify(response)
 

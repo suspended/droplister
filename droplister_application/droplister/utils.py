@@ -42,8 +42,9 @@ def prepare_product_for_ebay(product, ebay_trading, store_category):
                                                   site_code, 'USD', account_user.paypal_email,
                                                   shipping_service_cost=2.50, category_id=1244,
                                                   store_category=store_category, small_picture_url=image_url,
-                                                  upc=product.upc, ean=product.ean)
-    if ebay_response.reply.Ack == "Success":
+                                                  upc=product.upc, ean=product.ean, brand=product.manufacturer,
+                                                  mpn=product.mpn)
+    if ebay_response.reply.Ack == "Success" or ebay_response.reply.Ack == "Warning":
         # if ebay_response.reply.Ack == "Success":
         ebay_item_id = ebay_response.reply.get('ItemID')
         status = DroplisterItem.STATUS_LISTED

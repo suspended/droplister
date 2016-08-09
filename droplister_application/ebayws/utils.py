@@ -87,7 +87,7 @@ def build_fixed_price_item(currency, description, paypal_email, shipping_service
 
 
 def build_default_item(currency, description, paypal_email, shipping_service_cost, site_code, original_price,
-                       buy_price, title, categoryId, store_category, small_picture_url, upc, ean):
+                       buy_price, title, categoryId, store_category, small_picture_url, upc, ean, brand, mpn):
     product_listing_detail_dict = dict()
     if upc:
         product_listing_detail_dict = {
@@ -99,6 +99,10 @@ def build_default_item(currency, description, paypal_email, shipping_service_cos
         product_listing_detail_dict = {
             "EAN": str(ean),
         }
+    # product_listing_detail_dict['BrandMPN'] = {
+    #     'Brand': brand,
+    #     'MPN': mpn
+    # }
     myitem = {
         "Item": {
             "Title": title,
@@ -106,12 +110,12 @@ def build_default_item(currency, description, paypal_email, shipping_service_cos
             "PrimaryCategory": {"CategoryID": categoryId},
             "StartPrice": str(original_price),
             "CategoryMappingAllowed": "true",
+            "ConditionID": 1000,
             "Country": site_code,
-            "ConditionID": "3000",
             "Currency": currency,
             "DispatchTimeMax": "5",
             "ListingDuration": "Days_7",
-            "ListingType": "Chinese",
+            "ListingType": "FixedPriceItem",
             "PaymentMethods": "PayPal",
             # "PayPalEmailAddress": "allforyouint@hotmail.com",
             "PayPalEmailAddress": paypal_email,
@@ -126,9 +130,18 @@ def build_default_item(currency, description, paypal_email, shipping_service_cos
                 "Description": "If you are not satisfied, return the book for refund.",
                 "ShippingCostPaidByOption": "Buyer"
             },
-            "ListingDetails": {
-                "BestOfferAutoAcceptPrice": float(buy_price),
-                "MinimumBestOfferPrice": float(buy_price)
+            # "ListingDetails": {
+            #     "BestOfferAutoAcceptPrice": float(buy_price),
+            #     "MinimumBestOfferPrice": float(buy_price)
+            # },
+            "ItemSpecifics": {
+                "NameValueList": [{
+                    "Name": "Brand",
+                    "Value": brand
+                }, {
+                    "Name": "MPN",
+                    "Value": mpn
+                }]
             },
             "ProductListingDetails": product_listing_detail_dict,
             "ShippingDetails": {
@@ -139,7 +152,7 @@ def build_default_item(currency, description, paypal_email, shipping_service_cos
                     "ShippingServiceCost": 0,
                 }
             },
-            "BuyItNowPrice": float(buy_price),
+            #"BuyItNowPrice": float(buy_price),
             "Storefront": {
                 "StoreCategoryID": store_category
             },
