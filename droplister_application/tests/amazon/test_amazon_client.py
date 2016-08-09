@@ -5,9 +5,9 @@ import xmltodict
 
 from droplister_application.amws import amws
 
-access_key = 'AKIAJDS5JSZFEJLRI2XA' #replace with your access key
-merchant_id = 'A1HUC6KRBUPYNX' #replace with your merchant id
-secret_key = 'TpoTCy7CeG9pGHfuelCfh1+GLuH7WF2r5Dk9jMX/' #replace with your secret key
+access_key = 'AKIAJDS5JSZSDF234FEJLRI2XA' #replace with your access key
+merchant_id = 'A1HUC6KRBUDFSDFSDFPYNX' #replace with your merchant id
+secret_key = 'TpoTCyER7CeG9pGHWEREWfuelCfh1+GLuH7WEWRW-F2r5DRETjMX/' #replace with your secret key
 
 OrderedDict
 
